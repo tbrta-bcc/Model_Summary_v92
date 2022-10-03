@@ -1,0 +1,785 @@
+
+<html>
+	
+<head>
+
+
+<title>2015_Base  Tampa Bay Regional Planning Model </title>
+<meta charset="utf-8" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+<meta name="generator" content="Hugo 0.98.0">
+<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sidebars/">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!--Load jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" rel="stylesheet"/>
+
+
+<!-- SEARCH CONTROL -->
+	<link rel="stylesheet" href="src/leaflet-search.css"/>
+
+<!-- Chart.js -->	
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@3.4.0/dist/chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0/chartjs-plugin-datalabels.min.js"></script>
+
+	<!-- Jquery JS -->
+	<script src="http://code.jqiery.com/jquery.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+	<!-- Leaflet JS -->
+	<link rel="stylesheet" href="leaflet/leaflet.css">
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+		  
+		   
+	
+	<link rel="stylesheet" href="leaflet/leaflet.css"/>
+	<script src="leaflet/leaflet.js"></script> 
+	<script src="js/l.control.geosearch.js"></script>
+	<script src="js/l.geosearch.provider.google.js"></script>
+    <link rel="stylesheet" href="css/l.geosearch.css"/>
+
+
+
+<!-- Main Style -->
+<link rel="stylesheet" href="css/summary.css"/>
+
+
+ </head>
+    <style>
+    h2{
+font-size:15px
+
+    }
+    
+    thead {color: black;}
+    tbody {color: black;}
+    tfoot {color: red;}
+    table{width:250px;height:200px;}
+    table, th, td {
+      border: 1px solid black;
+      font-size: 14px;
+      text-align:center;
+      height:10px;
+      border-collapse: collapse;
+    }
+td:nth-child(1) {
+    text-align:center;
+  width:25%;
+}
+td:nth-child(2) {
+     text-align:right;
+  width:25%;
+}
+td:nth-child(3) {
+         text-align:right;
+
+  width:25%;
+}
+td:nth-child(4) {
+         text-align:right;
+
+  width:25%;
+}
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      * {
+  box-sizing: border-box;
+}
+
+.box {
+  position:absolute;
+  top:55px;
+  width: 45;
+  height:100%;
+}
+.box_1 {
+  position:absolute;
+  top:630px;
+  left:40px;
+  width: 580px;
+  height:30;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+
+
+    <body>
+
+
+<main class="d-flex flex-nowrap" style="position:relative">
+<div class="flex-shrink-0 p-3" style="width: 230px;background-color:#F2F2F2">
+    <a href="#" class="d-flex align-items-left pb-3 mb-3 link-dark text-decoration-none border-bottom">
+      <span class="fs-4 fw-semibold" style="color:#6C8D9C;font-weight:bold">Summary Index</span>
+    </a>
+    <ul class="list-unstyled ps-0">
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#EE-collapse" aria-expanded="true">
+         External
+        </button>
+        <div class="collapse show" id="EE-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="EEIN.html" class="link-dark d-inline-flex text-decoration-none rounded" >Input EE Trips</a></li>
+            <li><a href="EEOUT.html" class="link-dark d-inline-flex text-decoration-none rounded" style="background-color:ADCEDE">Output EE Trips</a></li>
+          </ul>
+        </div>
+      </li>
+             <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#generation-collapse" aria-expanded="false">
+          Trip Generation
+        </button>
+        <div class="collapse " id="generation-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="GEN_Overall.html" class="link-dark d-inline-flex text-decoration-none rounded" >PANDA Overall</a></li>
+            <li><a href="GEN_0C.html" class="link-dark d-inline-flex text-decoration-none rounded"  >PANDA 0 Car</a></li>
+            <li><a href="GEN_1C.html" class="link-dark d-inline-flex text-decoration-none rounded" >PANDA 1 Car</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+          Trip Distribution
+        </button>
+        <div class="collapse" id="dashboard-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="Triplength.html" class="link-dark d-inline-flex text-decoration-none rounded" >Trip Length Overall</a></li>
+            <li><a href="Triplength_PK_County.html" class="link-dark d-inline-flex text-decoration-none rounded"  >PK Trip Length by County </a></li>
+            <li><a href="Triplength_OP_County.html" class="link-dark d-inline-flex text-decoration-none rounded"  >OP Trip Length by County </a></li>
+             <li><a href="DIST_Intra.html" class="link-dark d-inline-flex text-decoration-none rounded" >Intrazonal Trips Overall</a></li>
+             <li><a href="DIST_intra_County_PK.html" class="link-dark d-inline-flex text-decoration-none rounded" >PK Intrazonal Trips by County </a></li>
+             <li><a href="DIST_intra_County_OP.html" class="link-dark d-inline-flex text-decoration-none rounded" >OP Intrazonal Trips by County </a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+          Mode Choice
+        </button>
+        <div class="collapse" id="orders-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="MODE_overall.html" class="link-dark d-inline-flex text-decoration-none rounded" >MODE Overall</a></li>
+            <li><a href="MODE_HWY.html" class="link-dark d-inline-flex text-decoration-none rounded" >Highway Trips</a></li>
+            <li><a href="MODE_transit.html" class="link-dark d-inline-flex text-decoration-none rounded"">Transit Trips</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#Transit-collapse" aria-expanded="false">
+          Transit Assignment
+        </button>
+        <div class="collapse" id="Transit-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="TRANSIT_Overall.html" class="link-dark d-inline-flex text-decoration-none rounded" >Transit Summary</a></li>
+  
+          </ul>
+        </div>
+      </li>
+            <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#Highway-collapse" aria-expanded="false">
+ Highway Analysis
+        </button>
+        <div class="collapse" id="Highway-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="Analysis_Overall.html" class="link-dark d-inline-flex text-decoration-none rounded" >Volume/Capacity</a></li>
+            
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#Highway-collapse" aria-expanded="false">
+         Highway Validation
+        </button>
+        <div class="collapse" id="Highway-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="Validation_Overall.html" class="link-dark d-inline-flex text-decoration-none rounded">VOL/CNT & RMSE</a></li>
+            <li><a href="highway_Corridor.html" class="link-dark d-inline-flex text-decoration-none rounded">VOL/CNT by Corridor</a></li>
+            <li><a href="highway_FACL.html" class="link-dark d-inline-flex text-decoration-none rounded">VOL/CNT by FT & AT</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+
+    <header class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+		<nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+			<a href="https://tdaappsprod.dot.state.fl.us/fto/" target="_blank">
+				<img src="images/fdot_logo_white.png" id="fdot_logo" style="height: 48px; float:left"/>
+			</a>
+		<div class="collapse navbar-collapse" id="bdNavbar">
+		<ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
+			<li class="nav-item col-6 col-md-auto">
+			<a class="nav-link p-3 active" style="font-size:20" aria-current="true"><b>2015_Base  Tampa Bay Regional Planning Model </b></a>
+			</li>
+		</ul>
+		<ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+			<li class="nav-item col-6 col-md-auto">
+				<a href="https://bcceng.com/" target="_blank"><img src="images/bcc_logo.png" id="bcc_logo" style="height: 48px;"/></a>
+			</li>
+		</ul>
+		</div>
+	</nav>
+	</header>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="eeauto" id="eeauto">
+    <canvas id="auto" style="width:100%;max-width:1200px"></canvas>
+    </div>
+
+    <div class="eehtrk" id="eehtrk">
+    <canvas id="htrk" style="width:100%;max-width:1200px"></canvas>
+    </div>
+
+    <script>
+
+
+var yValues=['436.3112998990224','996.3131139692313','869.8432307206649','607.7819278626705','242.38312394479897','214.064077608135','7466.181583705946','372.45553159640275','486.42779570747075','701.4408665670724','537.3907344100327','21649.642806475782','696.6788577878076','167.93609175755716','517.8934386363138','103.07243680302068','342.1707287272408','590.5634393029659','1112.6296046665643','1781.1599918286443','120.66520066665203','373.14407460601944','144.1313460454416','124.87738251513622','31.16620016666301','539.3795115757031','15493.754413590985','2980.7427623549083','2269.0537217661813','41.058909242420924','2.4001176441762704','12.572044802828081'];
+
+new Chart(document.getElementById("auto"), {
+    type: 'bar',
+    data: {
+      labels: ["3001","3002","3003","3004","3005","3006","3007","3008","3009","3010","3011","3012","3013","3014","3015","3016","3017","3018","3019","3020","3021","3022","3023","3024","3025","3026","3027","3028","3029","3030","3031","3032"],
+      datasets: [
+        {
+          backgroundColor: "#F3A27C",
+          data: yValues
+        }
+      ]
+    },
+    options: {
+     
+      plugins:{
+           legend: {
+         display: false 
+      },
+      title: {
+        display: true,
+        text: 'EE AUTO Total Trips',
+        font:{
+            size:14
+        }
+      }
+    }
+    }
+});
+
+
+
+
+
+var yValues2=['35.9964','27.9972','29.997','37.9962','23.9976','27.9972','3091.6908','63.99360000000001','139.986','167.9832','47.995200000000004','2119.7879999999996','83.99159999999998','31.9968','29.997','3.9996','15.9984','117.9882','21.997799999999998','141.9858','35.9964','69.993','9.999','47.9952','7.9992','89.99100000000001','2335.7664','203.9796','137.9862','0.0','0.0','0.0'];
+new Chart(document.getElementById("htrk"), {
+    type: 'bar',
+    data: {
+      labels: ["3001","3002","3003","3004","3005","3006","3007","3008","3009","3010","3011","3012","3013","3014","3015","3016","3017","3018","3019","3020","3021","3022","3023","3024","3025","3026","3027","3028","3029","3030","3031","3032"],
+      datasets: [
+        {
+          backgroundColor: "#F3A27C",
+          data: yValues2
+        }
+      ]
+    },
+    options: {
+     
+      plugins:{
+           legend: {
+         display: false 
+      },
+      title: {
+        display: true,
+        text: 'EE  Truck Total Trips',
+        font:{
+            size:14
+        }
+      }
+    }
+    }
+});
+
+
+</script>
+
+</body>
+
+   <div class="eetrips_auto" id="auto">
+    <h4 style="padding: 10px 0;color:black;font-size:20"><span>
+    EE Auto</span></h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ORIGINS</th>
+      <th>DESTINATIONS</th>
+      <th>TOTAL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>218</td>
+      <td>218</td>
+      <td>436</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>499</td>
+      <td>498</td>
+      <td>996</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>435</td>
+      <td>435</td>
+      <td>870</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>304</td>
+      <td>304</td>
+      <td>608</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>121</td>
+      <td>121</td>
+      <td>242</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>107</td>
+      <td>107</td>
+      <td>214</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>3,735</td>
+      <td>3,732</td>
+      <td>7,466</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>187</td>
+      <td>186</td>
+      <td>372</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>244</td>
+      <td>242</td>
+      <td>486</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>352</td>
+      <td>350</td>
+      <td>701</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>269</td>
+      <td>269</td>
+      <td>537</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>10,822</td>
+      <td>10,828</td>
+      <td>21,650</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>348</td>
+      <td>348</td>
+      <td>697</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>84</td>
+      <td>84</td>
+      <td>168</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>259</td>
+      <td>259</td>
+      <td>518</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>52</td>
+      <td>52</td>
+      <td>103</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>171</td>
+      <td>171</td>
+      <td>342</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>295</td>
+      <td>295</td>
+      <td>591</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>556</td>
+      <td>556</td>
+      <td>1,113</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>891</td>
+      <td>891</td>
+      <td>1,781</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>60</td>
+      <td>60</td>
+      <td>121</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>187</td>
+      <td>187</td>
+      <td>373</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>72</td>
+      <td>72</td>
+      <td>144</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>62</td>
+      <td>62</td>
+      <td>125</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>16</td>
+      <td>16</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>270</td>
+      <td>270</td>
+      <td>539</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>7,744</td>
+      <td>7,750</td>
+      <td>15,494</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>1,490</td>
+      <td>1,490</td>
+      <td>2,981</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>1,135</td>
+      <td>1,134</td>
+      <td>2,269</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>21</td>
+      <td>21</td>
+      <td>41</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>1</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>6</td>
+      <td>6</td>
+      <td>13</td>
+    </tr>
+  </tbody>
+</table></div><div class="eetrips_htrk" id="htrk">
+    <h4 style="padding: 10px 0;color:black;font-size:20"><span>
+    EE Truck</span></h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>ORIGINS</th>
+      <th>DESTINATIONS</th>
+      <th>TOTAL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>1</th>
+      <td>18</td>
+      <td>18</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>14</td>
+      <td>14</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>15</td>
+      <td>15</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>19</td>
+      <td>19</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>12</td>
+      <td>12</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>14</td>
+      <td>14</td>
+      <td>28</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>1,546</td>
+      <td>1,546</td>
+      <td>3,092</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>32</td>
+      <td>32</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>70</td>
+      <td>70</td>
+      <td>140</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>84</td>
+      <td>84</td>
+      <td>168</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>24</td>
+      <td>24</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>1,060</td>
+      <td>1,060</td>
+      <td>2,120</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>42</td>
+      <td>42</td>
+      <td>84</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>16</td>
+      <td>16</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>15</td>
+      <td>15</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>2</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>8</td>
+      <td>8</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>59</td>
+      <td>59</td>
+      <td>118</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>11</td>
+      <td>11</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>71</td>
+      <td>71</td>
+      <td>142</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>18</td>
+      <td>18</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>35</td>
+      <td>35</td>
+      <td>70</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>5</td>
+      <td>5</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>24</td>
+      <td>24</td>
+      <td>48</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>4</td>
+      <td>4</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>45</td>
+      <td>45</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>1,168</td>
+      <td>1,168</td>
+      <td>2,336</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>102</td>
+      <td>102</td>
+      <td>204</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>69</td>
+      <td>69</td>
+      <td>138</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        </body>
+        </html>
+        

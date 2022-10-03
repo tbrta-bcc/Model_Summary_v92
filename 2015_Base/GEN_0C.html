@@ -1,0 +1,1254 @@
+
+    <html>
+	
+<head>
+
+
+<title>2015_Base  Tampa Bay Regional Planning Model </title>
+<meta charset="utf-8" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+<meta name="generator" content="Hugo 0.98.0">
+<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sidebars/">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!--Load jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" rel="stylesheet"/>
+
+
+<!-- SEARCH CONTROL -->
+	<link rel="stylesheet" href="src/leaflet-search.css"/>
+
+<!-- Chart.js -->	
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@3.4.0/dist/chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0/chartjs-plugin-datalabels.min.js"></script>
+
+	<!-- Jquery JS -->
+	<script src="http://code.jqiery.com/jquery.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+	<!-- Leaflet JS -->
+	<link rel="stylesheet" href="leaflet/leaflet.css">
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+		  
+		   
+	
+	<link rel="stylesheet" href="leaflet/leaflet.css"/>
+	<script src="leaflet/leaflet.js"></script> 
+	<script src="js/l.control.geosearch.js"></script>
+	<script src="js/l.geosearch.provider.google.js"></script>
+    <link rel="stylesheet" href="css/l.geosearch.css"/>
+
+
+
+<!-- Main Style -->
+    <link rel="stylesheet" href="css/summary.css"/>
+
+
+ </head>
+    <style>
+ 
+    
+    thead {color: black;}
+    tbody {color: black;}
+    tfoot {color: red;}
+    table{width:520px;height:200px;}
+    table, th, td {
+      border: 1px solid black;
+      text-align:center;
+      font-size: 12px;
+      height:10px;
+      border-collapse: collapse;
+    }
+td:nth-child(1) {
+    text-align:center;
+}
+td:nth-child(2) {
+     text-align:right;
+}
+td:nth-child(3) {
+         text-align:right;
+}
+td:nth-child(4) {
+         text-align:right;
+}
+td:nth-child(5) {
+         text-align:right;
+}
+td:nth-child(6) {
+         text-align:right;
+}
+td:nth-child(7) {
+         text-align:right;
+}
+td:nth-child(8) {
+         text-align:right;
+}
+
+
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      * {
+  box-sizing: border-box;
+}
+
+.box {
+  position:absolute;
+  top:55px;
+  width: 45;
+  height:100%;
+}
+.box_1 {
+  position:absolute;
+  top:630px;
+  left:40px;
+  width: 580px;
+  height:30;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <body>
+
+<main class="d-flex flex-nowrap" style="position:relative">
+<div class="flex-shrink-0 p-3" style="width: 230px;background-color:#F2F2F2">
+    <a href="#" class="d-flex align-items-left pb-3 mb-3 link-dark text-decoration-none border-bottom">
+      <span class="fs-4 fw-semibold" style="color:#6C8D9C;font-weight:bold">Summary Index</span>
+    </a>
+    <ul class="list-unstyled ps-0">
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#EE-collapse" aria-expanded="false">
+         External
+        </button>
+        <div class="collapse" id="EE-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="EEIN.html" class="link-dark d-inline-flex text-decoration-none rounded">Input EE Trips</a></li>
+            <li><a href="EEOUT.html" class="link-dark d-inline-flex text-decoration-none rounded">Output EE Trips</a></li>
+          </ul>
+        </div>
+      </li>
+           <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#generation-collapse" aria-expanded="true">
+          Trip Generation
+        </button>
+        <div class="collapse show" id="generation-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="GEN_Overall.html" class="link-dark d-inline-flex text-decoration-none rounded" >PANDA Overall</a></li>
+            <li><a href="GEN_0C.html" class="link-dark d-inline-flex text-decoration-none rounded" style="background-color:ADCEDE" >PANDA 0 Car</a></li>
+            <li><a href="GEN_1C.html" class="link-dark d-inline-flex text-decoration-none rounded" ">PANDA 1 Car</a></li>
+          </ul>
+        </div>
+      </li>
+       <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+          Trip Distribution
+        </button>
+        <div class="collapse" id="dashboard-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="Triplength.html" class="link-dark d-inline-flex text-decoration-none rounded" >Trip Length Overall</a></li>
+            <li><a href="Triplength_PK_County.html" class="link-dark d-inline-flex text-decoration-none rounded"  >PK Trip Length by County </a></li>
+            <li><a href="Triplength_OP_County.html" class="link-dark d-inline-flex text-decoration-none rounded"  >OP Trip Length by County </a></li>
+             <li><a href="DIST_Intra.html" class="link-dark d-inline-flex text-decoration-none rounded" >Intrazonal Trips Overall</a></li>
+             <li><a href="DIST_intra_County_PK.html" class="link-dark d-inline-flex text-decoration-none rounded" >PK Intrazonal Trips by County </a></li>
+             <li><a href="DIST_intra_County_OP.html" class="link-dark d-inline-flex text-decoration-none rounded" >OP Intrazonal Trips by County </a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+          Mode Choice
+        </button>
+        <div class="collapse" id="orders-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="MODE_overall.html" class="link-dark d-inline-flex text-decoration-none rounded" >MODE Overall</a></li>
+            <li><a href="MODE_HWY.html" class="link-dark d-inline-flex text-decoration-none rounded" >Highway Trips</a></li>
+            <li><a href="MODE_transit.html" class="link-dark d-inline-flex text-decoration-none rounded"">Transit Trips</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#Transit-collapse" aria-expanded="false">
+          Transit Assignment
+        </button>
+        <div class="collapse" id="Transit-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="TRANSIT_Overall.html" class="link-dark d-inline-flex text-decoration-none rounded" >Transit Summary</a></li>
+  
+          </ul>
+        </div>
+      </li>
+            <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#Highway-collapse" aria-expanded="false">
+ Highway Analysis
+        </button>
+        <div class="collapse" id="Highway-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="Analysis_Overall.html" class="link-dark d-inline-flex text-decoration-none rounded" >Volume/Capacity</a></li>
+            
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#Highway-collapse" aria-expanded="false">
+         Highway Validation
+        </button>
+        <div class="collapse" id="Highway-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="Validation_Overall.html" class="link-dark d-inline-flex text-decoration-none rounded">VOL/CNT & RMSE</a></li>
+            <li><a href="highway_Corridor.html" class="link-dark d-inline-flex text-decoration-none rounded">VOL/CNT by Corridor</a></li>
+            <li><a href="highway_FACL.html" class="link-dark d-inline-flex text-decoration-none rounded">VOL/CNT by FT & AT</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+
+    <header class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+		<nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+			<a href="https://tdaappsprod.dot.state.fl.us/fto/" target="_blank">
+				<img src="images/fdot_logo_white.png" id="fdot_logo" style="height: 48px; float:left"/>
+			</a>
+		<div class="collapse navbar-collapse" id="bdNavbar">
+		<ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
+			<li class="nav-item col-6 col-md-auto">
+			<a class="nav-link p-3 active" aria-current="true"><b>2015_Base  Tampa Bay Regional Planning Model </b></a>
+			</li>
+		</ul>
+		<ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+			<li class="nav-item col-6 col-md-auto">
+				<a href="https://bcceng.com/" target="_blank"><img src="images/bcc_logo.png" id="bcc_logo" style="height: 48px;"/></a>
+			</li>
+		</ul>
+		</div>
+	</nav>
+	</header>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<div class="groupbar" id="barchart_PANDAS">
+    <canvas id="bar-chart-grouped" style="width:100%;max-width:1200px"></canvas>
+    </div>
+
+
+</body>
+
+   <div class="zc_tp" id="zc_tp1">
+    <h4 style="padding: 10px 0;color:black;background-color:#F39db8">
+     &nbsp 0 Car Daily Production</h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Hillsborough</th>
+      <th>Pinellas</th>
+      <th>Pasco</th>
+      <th>Hernando</th>
+      <th>Citrus</th>
+      <th>Other</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>HBW</th>
+      <td>30,149</td>
+      <td>29,228</td>
+      <td>6,932</td>
+      <td>2,985</td>
+      <td>1,753</td>
+      <td>77</td>
+      <td>71,124</td>
+    </tr>
+    <tr>
+      <th>HBSH</th>
+      <td>6,087</td>
+      <td>7,775</td>
+      <td>1,801</td>
+      <td>931</td>
+      <td>585</td>
+      <td>28</td>
+      <td>17,208</td>
+    </tr>
+    <tr>
+      <th>HBSR</th>
+      <td>31,929</td>
+      <td>39,311</td>
+      <td>9,218</td>
+      <td>4,731</td>
+      <td>2,932</td>
+      <td>146</td>
+      <td>88,266</td>
+    </tr>
+    <tr>
+      <th>HBSC</th>
+      <td>20,861</td>
+      <td>16,368</td>
+      <td>4,557</td>
+      <td>2,112</td>
+      <td>1,066</td>
+      <td>74</td>
+      <td>45,038</td>
+    </tr>
+    <tr>
+      <th>HBO</th>
+      <td>24,244</td>
+      <td>24,870</td>
+      <td>6,135</td>
+      <td>2,969</td>
+      <td>1,727</td>
+      <td>93</td>
+      <td>60,037</td>
+    </tr>
+    <tr>
+      <th>NHBW</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>NHBO</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>LTRK</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>HTRK</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>TAXI</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>EI</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>AIRPORT</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>COL/UNV</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Total</th>
+      <td>113,271</td>
+      <td>117,552</td>
+      <td>28,642</td>
+      <td>13,728</td>
+      <td>8,062</td>
+      <td>419</td>
+      <td>281,674</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+   <div class="zc_ta" id="zc_ta1">
+    <h4 style="padding: 10px 0;color:black;background-color:#F39db8">
+     &nbsp 0 Car Daily Attraction</h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Hillsborough</th>
+      <th>Pinellas</th>
+      <th>Pasco</th>
+      <th>Hernando</th>
+      <th>Citrus</th>
+      <th>Other</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>HBW</th>
+      <td>994,839</td>
+      <td>742,653</td>
+      <td>203,809</td>
+      <td>114,943</td>
+      <td>75,725</td>
+      <td>50,208</td>
+      <td>2,182,178</td>
+    </tr>
+    <tr>
+      <th>HBSH</th>
+      <td>394,287</td>
+      <td>396,337</td>
+      <td>125,063</td>
+      <td>79,832</td>
+      <td>48,002</td>
+      <td>13,917</td>
+      <td>1,057,438</td>
+    </tr>
+    <tr>
+      <th>HBSR</th>
+      <td>1,065,537</td>
+      <td>1,088,844</td>
+      <td>384,935</td>
+      <td>211,196</td>
+      <td>135,667</td>
+      <td>21,100</td>
+      <td>2,907,278</td>
+    </tr>
+    <tr>
+      <th>HBSC</th>
+      <td>580,942</td>
+      <td>351,878</td>
+      <td>159,576</td>
+      <td>85,627</td>
+      <td>37,968</td>
+      <td>7,375</td>
+      <td>1,223,366</td>
+    </tr>
+    <tr>
+      <th>HBO</th>
+      <td>783,233</td>
+      <td>728,953</td>
+      <td>242,977</td>
+      <td>150,219</td>
+      <td>88,084</td>
+      <td>30,930</td>
+      <td>2,024,395</td>
+    </tr>
+    <tr>
+      <th>NHBW</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>NHBO</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>LTRK</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>HTRK</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>TAXI</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>EI</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>AIRPORT</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>COL/UNV</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Total</th>
+      <td>3,818,838</td>
+      <td>3,308,664</td>
+      <td>1,116,360</td>
+      <td>641,816</td>
+      <td>385,447</td>
+      <td>123,530</td>
+      <td>9,394,655</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+   <div class="zcop_tp" zcop_tp1">
+    <h4 style="padding: 10px 0;color:black;background-color:#F9cbb6">
+     &nbsp 0 Car Off-Peak Production</h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Hillsborough</th>
+      <th>Pinellas</th>
+      <th>Pasco</th>
+      <th>Hernando</th>
+      <th>Citrus</th>
+      <th>Other</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>HBW</th>
+      <td>13,118</td>
+      <td>12,717</td>
+      <td>3,016</td>
+      <td>1,299</td>
+      <td>763</td>
+      <td>33</td>
+      <td>30,946</td>
+    </tr>
+    <tr>
+      <th>HBSH</th>
+      <td>4,216</td>
+      <td>5,385</td>
+      <td>1,248</td>
+      <td>645</td>
+      <td>405</td>
+      <td>20</td>
+      <td>11,918</td>
+    </tr>
+    <tr>
+      <th>HBSR</th>
+      <td>21,543</td>
+      <td>26,523</td>
+      <td>6,219</td>
+      <td>3,192</td>
+      <td>1,978</td>
+      <td>98</td>
+      <td>59,553</td>
+    </tr>
+    <tr>
+      <th>HBSC</th>
+      <td>7,612</td>
+      <td>5,973</td>
+      <td>1,663</td>
+      <td>770</td>
+      <td>389</td>
+      <td>27</td>
+      <td>16,434</td>
+    </tr>
+    <tr>
+      <th>HBO</th>
+      <td>13,046</td>
+      <td>13,382</td>
+      <td>3,301</td>
+      <td>1,598</td>
+      <td>929</td>
+      <td>50</td>
+      <td>32,306</td>
+    </tr>
+    <tr>
+      <th>NHBW</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>NHBO</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>LTRK</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>HTRK</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>TAXI</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>EI</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>AIRPORT</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>COL/UNV</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Total</th>
+      <td>59,534</td>
+      <td>63,980</td>
+      <td>15,447</td>
+      <td>7,504</td>
+      <td>4,464</td>
+      <td>229</td>
+      <td>151,158</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+   <div class="zcop_ta" id="zcop_ta1">
+    <h4 style="padding: 10px 0;color:black;background-color:#F9cbb6">
+     &nbsp 0 Car Off-Peak Attraction</h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Hillsborough</th>
+      <th>Pinellas</th>
+      <th>Pasco</th>
+      <th>Hernando</th>
+      <th>Citrus</th>
+      <th>Other</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>HBW</th>
+      <td>432,854</td>
+      <td>323,128</td>
+      <td>88,677</td>
+      <td>50,012</td>
+      <td>32,948</td>
+      <td>21,846</td>
+      <td>949,466</td>
+    </tr>
+    <tr>
+      <th>HBSH</th>
+      <td>273,083</td>
+      <td>274,503</td>
+      <td>86,619</td>
+      <td>55,292</td>
+      <td>33,246</td>
+      <td>9,639</td>
+      <td>732,381</td>
+    </tr>
+    <tr>
+      <th>HBSR</th>
+      <td>718,918</td>
+      <td>734,643</td>
+      <td>259,715</td>
+      <td>142,494</td>
+      <td>91,535</td>
+      <td>14,236</td>
+      <td>1,961,541</td>
+    </tr>
+    <tr>
+      <th>HBSC</th>
+      <td>211,986</td>
+      <td>128,400</td>
+      <td>58,229</td>
+      <td>31,245</td>
+      <td>13,855</td>
+      <td>2,691</td>
+      <td>446,406</td>
+    </tr>
+    <tr>
+      <th>HBO</th>
+      <td>421,458</td>
+      <td>392,250</td>
+      <td>130,746</td>
+      <td>80,833</td>
+      <td>47,398</td>
+      <td>16,643</td>
+      <td>1,089,327</td>
+    </tr>
+    <tr>
+      <th>NHBW</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>NHBO</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>LTRK</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>HTRK</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>TAXI</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>EI</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>AIRPORT</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>COL/UNV</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Total</th>
+      <td>2,058,299</td>
+      <td>1,852,924</td>
+      <td>623,987</td>
+      <td>359,875</td>
+      <td>218,982</td>
+      <td>65,055</td>
+      <td>5,179,121</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+   <div class="zcpk_tp" id="zcpk_tp1">
+    <h4 style="padding: 10px 0;color:black;background-color:#F3a27c">
+     &nbsp 0 Car Peak Production</h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Hillsborough</th>
+      <th>Pinellas</th>
+      <th>Pasco</th>
+      <th>Hernando</th>
+      <th>Citrus</th>
+      <th>Other</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>HBW</th>
+      <td>17,031</td>
+      <td>16,511</td>
+      <td>3,916</td>
+      <td>1,686</td>
+      <td>990</td>
+      <td>43</td>
+      <td>40,178</td>
+    </tr>
+    <tr>
+      <th>HBSH</th>
+      <td>1,871</td>
+      <td>2,390</td>
+      <td>554</td>
+      <td>286</td>
+      <td>180</td>
+      <td>9</td>
+      <td>5,290</td>
+    </tr>
+    <tr>
+      <th>HBSR</th>
+      <td>10,387</td>
+      <td>12,788</td>
+      <td>2,998</td>
+      <td>1,539</td>
+      <td>954</td>
+      <td>47</td>
+      <td>28,713</td>
+    </tr>
+    <tr>
+      <th>HBSC</th>
+      <td>13,249</td>
+      <td>10,396</td>
+      <td>2,894</td>
+      <td>1,341</td>
+      <td>677</td>
+      <td>47</td>
+      <td>28,604</td>
+    </tr>
+    <tr>
+      <th>HBO</th>
+      <td>11,198</td>
+      <td>11,487</td>
+      <td>2,834</td>
+      <td>1,371</td>
+      <td>798</td>
+      <td>43</td>
+      <td>27,731</td>
+    </tr>
+    <tr>
+      <th>NHBW</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>NHBO</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>LTRK</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>HTRK</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>TAXI</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>EI</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>AIRPORT</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>COL/UNV</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Total</th>
+      <td>53,736</td>
+      <td>53,572</td>
+      <td>13,196</td>
+      <td>6,224</td>
+      <td>3,598</td>
+      <td>190</td>
+      <td>130,516</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+   <div class="zcpk_ta" id="zcpk_ta1">
+    <h4 style="padding: 10px 0;color:black;background-color:#F3a27c">
+     &nbsp 0 Car Peak Attraction</h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Hillsborough</th>
+      <th>Pinellas</th>
+      <th>Pasco</th>
+      <th>Hernando</th>
+      <th>Citrus</th>
+      <th>Other</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>HBW</th>
+      <td>561,985</td>
+      <td>419,525</td>
+      <td>115,132</td>
+      <td>64,931</td>
+      <td>42,777</td>
+      <td>28,363</td>
+      <td>1,232,712</td>
+    </tr>
+    <tr>
+      <th>HBSH</th>
+      <td>121,204</td>
+      <td>121,834</td>
+      <td>38,444</td>
+      <td>24,540</td>
+      <td>14,756</td>
+      <td>4,278</td>
+      <td>325,056</td>
+    </tr>
+    <tr>
+      <th>HBSR</th>
+      <td>346,619</td>
+      <td>354,201</td>
+      <td>125,219</td>
+      <td>68,702</td>
+      <td>44,133</td>
+      <td>6,864</td>
+      <td>945,738</td>
+    </tr>
+    <tr>
+      <th>HBSC</th>
+      <td>368,956</td>
+      <td>223,478</td>
+      <td>101,346</td>
+      <td>54,382</td>
+      <td>24,114</td>
+      <td>4,684</td>
+      <td>776,960</td>
+    </tr>
+    <tr>
+      <th>HBO</th>
+      <td>361,775</td>
+      <td>336,703</td>
+      <td>112,231</td>
+      <td>69,386</td>
+      <td>40,686</td>
+      <td>14,286</td>
+      <td>935,068</td>
+    </tr>
+    <tr>
+      <th>NHBW</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>NHBO</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>LTRK</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>HTRK</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>TAXI</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>EI</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>AIRPORT</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>COL/UNV</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Total</th>
+      <td>1,760,539</td>
+      <td>1,455,741</td>
+      <td>492,373</td>
+      <td>281,941</td>
+      <td>166,465</td>
+      <td>58,475</td>
+      <td>4,215,534</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        </body>
+        </html>
+        

@@ -1,0 +1,1028 @@
+
+<html>
+	
+<head>
+
+
+<title>2015_Base  Tampa Bay Regional Planning Model </title>
+<meta charset="utf-8" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+<meta name="generator" content="Hugo 0.98.0">
+<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sidebars/">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!--Load jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/css/bootstrap-datepicker.min.css" rel="stylesheet"/>
+
+
+<!-- SEARCH CONTROL -->
+	<link rel="stylesheet" href="src/leaflet-search.css"/>
+
+<!-- Chart.js -->	
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@3.4.0/dist/chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.0.0/chartjs-plugin-datalabels.min.js"></script>
+
+	<!-- Jquery JS -->
+	<script src="http://code.jqiery.com/jquery.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+	<!-- Leaflet JS -->
+	<link rel="stylesheet" href="leaflet/leaflet.css">
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+		  
+		   
+	
+	<link rel="stylesheet" href="leaflet/leaflet.css"/>
+	<script src="leaflet/leaflet.js"></script> 
+	<script src="js/l.control.geosearch.js"></script>
+	<script src="js/l.geosearch.provider.google.js"></script>
+    <link rel="stylesheet" href="css/l.geosearch.css"/>
+
+
+
+<!-- Main Style -->
+    <link rel="stylesheet" href="css/summary.css"/>
+
+
+ </head>
+    <style>
+ 
+    
+    thead {color: black;}
+    tbody {color: black;}
+    tfoot {color: red;}
+    table{width:500px;height:200px;}
+    table, th, td {
+      border: 1px solid black;
+      text-align:center;
+      font-size: 12px;
+      height:10px;
+      border-collapse: collapse;
+    }
+td:nth-child(1) {
+  
+    text-align:center;
+}
+td:nth-child(2) {
+  width:20%;
+     text-align:right;
+}
+td:nth-child(3) {
+  width:20%;
+         text-align:right;
+}
+td:nth-child(4) {
+  width:20%;
+         text-align:right;
+}
+td:nth-child(5) {
+  width:20%;
+         text-align:right;
+}
+td:nth-child(6) {
+  width:20%;
+         text-align:right;
+}
+
+
+
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      * {
+  box-sizing: border-box;
+}
+
+.box {
+  position:absolute;
+  top:55px;
+  width: 45;
+  height:100%;
+}
+.box_1 {
+  position:absolute;
+  top:630px;
+  left:40px;
+  width: 580px;
+  height:30;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+
+
+    <body>
+
+
+<main class="d-flex flex-nowrap" style="position:relative">
+<div class="flex-shrink-0 p-3" style="width: 230px;background-color:#F2F2F2">
+    <a href="#" class="d-flex align-items-left pb-3 mb-3 link-dark text-decoration-none border-bottom">
+      <span class="fs-4 fw-semibold" style="color:#6C8D9C;font-weight:bold">Summary Index</span>
+    </a>
+    <ul class="list-unstyled ps-0">
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#EE-collapse" aria-expanded="false">
+         External
+        </button>
+        <div class="collapse" id="EE-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="EEIN.html" class="link-dark d-inline-flex text-decoration-none rounded">Input EE Trips</a></li>
+            <li><a href="EEOUT.html" class="link-dark d-inline-flex text-decoration-none rounded">Output EE Trips</a></li>
+          </ul>
+        </div>
+      </li>
+           <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#generation-collapse" aria-expanded="false">
+          Trip Generation
+        </button>
+        <div class="collapse " id="generation-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="GEN_Overall.html" class="link-dark d-inline-flex text-decoration-none rounded" >PANDA Overall</a></li>
+            <li><a href="GEN_0C.html" class="link-dark d-inline-flex text-decoration-none rounded"  >PANDA 0 Car</a></li>
+            <li><a href="GEN_1C.html" class="link-dark d-inline-flex text-decoration-none rounded" >PANDA 1 Car</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="true">
+          Trip Distribution
+        </button>
+        <div class="collapse show" id="dashboard-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="Triplength.html" class="link-dark d-inline-flex text-decoration-none rounded" >Trip Length Overall</a></li>
+            <li><a href="Triplength_PK_County.html" class="link-dark d-inline-flex text-decoration-none rounded"  >PK Trip Length by County </a></li>
+            <li><a href="Triplength_OP_County.html" class="link-dark d-inline-flex text-decoration-none rounded"  style="background-color:ADCEDE">OP Trip Length by County </a></li>
+             <li><a href="DIST_Intra.html" class="link-dark d-inline-flex text-decoration-none rounded" >Intrazonal Trips Overall</a></li>
+             <li><a href="DIST_intra_County_PK.html" class="link-dark d-inline-flex text-decoration-none rounded" >PK Intrazonal Trips by County </a></li>
+             <li><a href="DIST_intra_County_OP.html" class="link-dark d-inline-flex text-decoration-none rounded" >OP Intrazonal Trips by County </a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+          Mode Choice
+        </button>
+        <div class="collapse" id="orders-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="MODE_overall.html" class="link-dark d-inline-flex text-decoration-none rounded" >MODE Overall</a></li>
+            <li><a href="MODE_HWY.html" class="link-dark d-inline-flex text-decoration-none rounded" >Highway Trips</a></li>
+            <li><a href="MODE_transit.html" class="link-dark d-inline-flex text-decoration-none rounded"">Transit Trips</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#Transit-collapse" aria-expanded="false">
+          Transit Assignment
+        </button>
+        <div class="collapse" id="Transit-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="TRANSIT_Overall.html" class="link-dark d-inline-flex text-decoration-none rounded" >Transit Summary</a></li>
+  
+          </ul>
+        </div>
+      </li>
+            <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#Highway-collapse" aria-expanded="false">
+ Highway Analysis
+        </button>
+        <div class="collapse" id="Highway-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="Analysis_Overall.html" class="link-dark d-inline-flex text-decoration-none rounded" >Volume/Capacity</a></li>
+            
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1">
+        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#Highway-collapse" aria-expanded="false">
+         Highway Validation
+        </button>
+        <div class="collapse" id="Highway-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <li><a href="Validation_Overall.html" class="link-dark d-inline-flex text-decoration-none rounded">VOL/CNT & RMSE</a></li>
+            <li><a href="highway_Corridor.html" class="link-dark d-inline-flex text-decoration-none rounded">VOL/CNT by Corridor</a></li>
+            <li><a href="highway_FACL.html" class="link-dark d-inline-flex text-decoration-none rounded">VOL/CNT by FT & AT</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+    <header class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+		<nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+			<a href="https://tdaappsprod.dot.state.fl.us/fto/" target="_blank">
+				<img src="images/fdot_logo_white.png" id="fdot_logo" style="height: 48px; float:left"/>
+			</a>
+		<div class="collapse navbar-collapse" id="bdNavbar">
+		<ul class="navbar-nav flex-row flex-wrap bd-navbar-nav pt-2 py-md-0">
+			<li class="nav-item col-6 col-md-auto">
+			<a class="nav-link p-3 active" aria-current="true"><b>2015_Base  Tampa Bay Regional Planning Model </b></a>
+			</li>
+		</ul>
+		<ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+			<li class="nav-item col-6 col-md-auto">
+				<a href="https://bcceng.com/" target="_blank"><img src="images/bcc_logo.png" id="bcc_logo" style="height: 48px;"/></a>
+			</li>
+		</ul>
+		</div>
+	</nav>
+	</header>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+
+
+
+   <div class="Hillsborough" id="Hillsborough">
+    <h4 style="padding: 10px 0;color:black">
+    Hillsborough Off-Peak Trip Length </h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Average Trip Length (Minutes)</th>
+      <th>Average Trip Length (Miles)</th>
+      <th>Total Trips</th>
+      <th>Total Trip Length (Minutes)</th>
+      <th>Total Trip Length (Miles)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>HBW</th>
+      <td>22.61</td>
+      <td>10.97</td>
+      <td>396,453</td>
+      <td>8,963,802</td>
+      <td>4,349,089</td>
+    </tr>
+    <tr>
+      <th>HBSH</th>
+      <td>15.34</td>
+      <td>6.18</td>
+      <td>256,894</td>
+      <td>3,940,754</td>
+      <td>1,587,605</td>
+    </tr>
+    <tr>
+      <th>HBSR</th>
+      <td>17.59</td>
+      <td>7.84</td>
+      <td>693,297</td>
+      <td>12,195,094</td>
+      <td>5,435,448</td>
+    </tr>
+    <tr>
+      <th>HBSC</th>
+      <td>13.51</td>
+      <td>4.66</td>
+      <td>204,918</td>
+      <td>2,768,442</td>
+      <td>954,918</td>
+    </tr>
+    <tr>
+      <th>HBO</th>
+      <td>17.66</td>
+      <td>7.7</td>
+      <td>404,141</td>
+      <td>7,137,130</td>
+      <td>3,111,886</td>
+    </tr>
+    <tr>
+      <th>NHBW</th>
+      <td>16.29</td>
+      <td>6.55</td>
+      <td>181,687</td>
+      <td>2,959,681</td>
+      <td>1,190,050</td>
+    </tr>
+    <tr>
+      <th>NHBO</th>
+      <td>16.12</td>
+      <td>6.5</td>
+      <td>584,369</td>
+      <td>9,420,028</td>
+      <td>3,798,398</td>
+    </tr>
+    <tr>
+      <th>LTRK</th>
+      <td>16.97</td>
+      <td>7.25</td>
+      <td>50,972</td>
+      <td>864,995</td>
+      <td>369,547</td>
+    </tr>
+    <tr>
+      <th>HTRK</th>
+      <td>35.59</td>
+      <td>22.72</td>
+      <td>20,708</td>
+      <td>736,998</td>
+      <td>470,486</td>
+    </tr>
+    <tr>
+      <th>TAXI</th>
+      <td>16.29</td>
+      <td>6.51</td>
+      <td>13,613</td>
+      <td>221,756</td>
+      <td>88,621</td>
+    </tr>
+    <tr>
+      <th>EI</th>
+      <td>NA</td>
+      <td>NA</td>
+      <td>0</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>AIRP</th>
+      <td>24.84</td>
+      <td>13.48</td>
+      <td>18,600</td>
+      <td>462,024</td>
+      <td>250,728</td>
+    </tr>
+    <tr>
+      <th>COL</th>
+      <td>18.76</td>
+      <td>8.33</td>
+      <td>59,056</td>
+      <td>1,107,891</td>
+      <td>491,936</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+   <div class="Pinellas" id="Pinellas">
+    <h4 style="padding: 10px 0;color:black">
+    Pinellas Off-Peak Trip Length  </h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Average Trip Length (Minutes)</th>
+      <th>Average Trip Length (Miles)</th>
+      <th>Total Trips</th>
+      <th>Total Trip Length (Minutes)</th>
+      <th>Total Trip Length (Miles)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>HBW</th>
+      <td>19.57</td>
+      <td>8.76</td>
+      <td>297,201</td>
+      <td>5,816,224</td>
+      <td>2,603,481</td>
+    </tr>
+    <tr>
+      <th>HBSH</th>
+      <td>12.43</td>
+      <td>4.28</td>
+      <td>265,793</td>
+      <td>3,303,807</td>
+      <td>1,137,594</td>
+    </tr>
+    <tr>
+      <th>HBSR</th>
+      <td>13.89</td>
+      <td>5.26</td>
+      <td>693,122</td>
+      <td>9,627,465</td>
+      <td>3,645,822</td>
+    </tr>
+    <tr>
+      <th>HBSC</th>
+      <td>11.85</td>
+      <td>3.86</td>
+      <td>122,428</td>
+      <td>1,450,772</td>
+      <td>472,572</td>
+    </tr>
+    <tr>
+      <th>HBO</th>
+      <td>12.94</td>
+      <td>4.52</td>
+      <td>359,750</td>
+      <td>4,655,165</td>
+      <td>1,626,070</td>
+    </tr>
+    <tr>
+      <th>NHBW</th>
+      <td>15.64</td>
+      <td>6.17</td>
+      <td>110,353</td>
+      <td>1,725,921</td>
+      <td>680,878</td>
+    </tr>
+    <tr>
+      <th>NHBO</th>
+      <td>15.61</td>
+      <td>6.14</td>
+      <td>349,318</td>
+      <td>5,452,854</td>
+      <td>2,144,813</td>
+    </tr>
+    <tr>
+      <th>LTRK</th>
+      <td>16.07</td>
+      <td>6.52</td>
+      <td>34,028</td>
+      <td>546,830</td>
+      <td>221,863</td>
+    </tr>
+    <tr>
+      <th>HTRK</th>
+      <td>39.68</td>
+      <td>25.43</td>
+      <td>11,952</td>
+      <td>474,255</td>
+      <td>303,939</td>
+    </tr>
+    <tr>
+      <th>TAXI</th>
+      <td>15.83</td>
+      <td>6.24</td>
+      <td>10,541</td>
+      <td>166,864</td>
+      <td>65,776</td>
+    </tr>
+    <tr>
+      <th>EI</th>
+      <td>NA</td>
+      <td>NA</td>
+      <td>0</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>AIRP</th>
+      <td>32.61</td>
+      <td>18.81</td>
+      <td>16,193</td>
+      <td>528,054</td>
+      <td>304,590</td>
+    </tr>
+    <tr>
+      <th>COL</th>
+      <td>18.93</td>
+      <td>8.54</td>
+      <td>40,928</td>
+      <td>774,767</td>
+      <td>349,525</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+   <div class="Pasco" id="Pasco">
+    <h4 style="padding: 10px 0;color:black">
+    Pasco Off-Peak Trip Length  </h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Average Trip Length (Minutes)</th>
+      <th>Average Trip Length (Miles)</th>
+      <th>Total Trips</th>
+      <th>Total Trip Length (Minutes)</th>
+      <th>Total Trip Length (Miles)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>HBW</th>
+      <td>26.8</td>
+      <td>13.61</td>
+      <td>120,440</td>
+      <td>3,227,792</td>
+      <td>1,639,188</td>
+    </tr>
+    <tr>
+      <th>HBSH</th>
+      <td>16.52</td>
+      <td>6.87</td>
+      <td>100,917</td>
+      <td>1,667,149</td>
+      <td>693,300</td>
+    </tr>
+    <tr>
+      <th>HBSR</th>
+      <td>19.44</td>
+      <td>8.78</td>
+      <td>267,550</td>
+      <td>5,201,172</td>
+      <td>2,349,089</td>
+    </tr>
+    <tr>
+      <th>HBSC</th>
+      <td>14.18</td>
+      <td>4.8</td>
+      <td>61,704</td>
+      <td>874,963</td>
+      <td>296,179</td>
+    </tr>
+    <tr>
+      <th>HBO</th>
+      <td>18.1</td>
+      <td>7.75</td>
+      <td>150,684</td>
+      <td>2,727,380</td>
+      <td>1,167,801</td>
+    </tr>
+    <tr>
+      <th>NHBW</th>
+      <td>16.11</td>
+      <td>6.55</td>
+      <td>35,352</td>
+      <td>569,521</td>
+      <td>231,556</td>
+    </tr>
+    <tr>
+      <th>NHBO</th>
+      <td>15.78</td>
+      <td>6.42</td>
+      <td>135,396</td>
+      <td>2,136,549</td>
+      <td>869,242</td>
+    </tr>
+    <tr>
+      <th>LTRK</th>
+      <td>16.79</td>
+      <td>6.83</td>
+      <td>11,459</td>
+      <td>192,397</td>
+      <td>78,265</td>
+    </tr>
+    <tr>
+      <th>HTRK</th>
+      <td>51.6</td>
+      <td>33.35</td>
+      <td>4,509</td>
+      <td>232,664</td>
+      <td>150,375</td>
+    </tr>
+    <tr>
+      <th>TAXI</th>
+      <td>16.63</td>
+      <td>6.6</td>
+      <td>3,100</td>
+      <td>51,553</td>
+      <td>20,460</td>
+    </tr>
+    <tr>
+      <th>EI</th>
+      <td>NA</td>
+      <td>NA</td>
+      <td>0</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>AIRP</th>
+      <td>53.49</td>
+      <td>32.76</td>
+      <td>3,318</td>
+      <td>177,480</td>
+      <td>108,698</td>
+    </tr>
+    <tr>
+      <th>COL</th>
+      <td>24.56</td>
+      <td>11.9</td>
+      <td>17,166</td>
+      <td>421,597</td>
+      <td>204,275</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+   <div class="Hernando" id="Hernando">
+    <h4 style="padding: 10px 0;color:black">
+    Hernando Off-Peak Trip Length  </h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Average Trip Length (Minutes)</th>
+      <th>Average Trip Length (Miles)</th>
+      <th>Total Trips</th>
+      <th>Total Trip Length (Minutes)</th>
+      <th>Total Trip Length (Miles)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>HBW</th>
+      <td>24.76</td>
+      <td>11.79</td>
+      <td>51,455</td>
+      <td>1,274,026</td>
+      <td>606,654</td>
+    </tr>
+    <tr>
+      <th>HBSH</th>
+      <td>16.65</td>
+      <td>6.88</td>
+      <td>53,118</td>
+      <td>884,415</td>
+      <td>365,452</td>
+    </tr>
+    <tr>
+      <th>HBSR</th>
+      <td>22.06</td>
+      <td>10.4</td>
+      <td>137,267</td>
+      <td>3,028,110</td>
+      <td>1,427,577</td>
+    </tr>
+    <tr>
+      <th>HBSC</th>
+      <td>13.29</td>
+      <td>4.36</td>
+      <td>25,274</td>
+      <td>335,891</td>
+      <td>110,195</td>
+    </tr>
+    <tr>
+      <th>HBO</th>
+      <td>17.48</td>
+      <td>7.29</td>
+      <td>75,375</td>
+      <td>1,317,555</td>
+      <td>549,484</td>
+    </tr>
+    <tr>
+      <th>NHBW</th>
+      <td>14.49</td>
+      <td>5.44</td>
+      <td>17,585</td>
+      <td>254,807</td>
+      <td>95,662</td>
+    </tr>
+    <tr>
+      <th>NHBO</th>
+      <td>13.99</td>
+      <td>5.19</td>
+      <td>68,904</td>
+      <td>963,967</td>
+      <td>357,612</td>
+    </tr>
+    <tr>
+      <th>LTRK</th>
+      <td>15.91</td>
+      <td>6.17</td>
+      <td>5,707</td>
+      <td>90,798</td>
+      <td>35,212</td>
+    </tr>
+    <tr>
+      <th>HTRK</th>
+      <td>53.55</td>
+      <td>32.83</td>
+      <td>2,400</td>
+      <td>128,520</td>
+      <td>78,792</td>
+    </tr>
+    <tr>
+      <th>TAXI</th>
+      <td>16.17</td>
+      <td>6.27</td>
+      <td>1,624</td>
+      <td>26,260</td>
+      <td>10,182</td>
+    </tr>
+    <tr>
+      <th>EI</th>
+      <td>NA</td>
+      <td>NA</td>
+      <td>0</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>AIRP</th>
+      <td>74.96</td>
+      <td>45.61</td>
+      <td>1,519</td>
+      <td>113,864</td>
+      <td>69,282</td>
+    </tr>
+    <tr>
+      <th>COL</th>
+      <td>38.94</td>
+      <td>20.3</td>
+      <td>7,348</td>
+      <td>286,131</td>
+      <td>149,164</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+   <div class="Citrus" id="Citrus">
+    <h4 style="padding: 10px 0;color:black">
+    Citrus Off-Peak Trip Length  </h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Average Trip Length (Minutes)</th>
+      <th>Average Trip Length (Miles)</th>
+      <th>Total Trips</th>
+      <th>Total Trip Length (Minutes)</th>
+      <th>Total Trip Length (Miles)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>HBW</th>
+      <td>22.12</td>
+      <td>9.25</td>
+      <td>32,185</td>
+      <td>711,932</td>
+      <td>297,711</td>
+    </tr>
+    <tr>
+      <th>HBSH</th>
+      <td>20.32</td>
+      <td>8.6</td>
+      <td>36,329</td>
+      <td>738,205</td>
+      <td>312,429</td>
+    </tr>
+    <tr>
+      <th>HBSR</th>
+      <td>27.18</td>
+      <td>13.16</td>
+      <td>93,258</td>
+      <td>2,534,752</td>
+      <td>1,227,275</td>
+    </tr>
+    <tr>
+      <th>HBSC</th>
+      <td>18.09</td>
+      <td>6.69</td>
+      <td>13,527</td>
+      <td>244,703</td>
+      <td>90,496</td>
+    </tr>
+    <tr>
+      <th>HBO</th>
+      <td>20.36</td>
+      <td>8.58</td>
+      <td>49,151</td>
+      <td>1,000,714</td>
+      <td>421,716</td>
+    </tr>
+    <tr>
+      <th>NHBW</th>
+      <td>15.88</td>
+      <td>5.51</td>
+      <td>11,492</td>
+      <td>182,493</td>
+      <td>63,321</td>
+    </tr>
+    <tr>
+      <th>NHBO</th>
+      <td>15.4</td>
+      <td>5.21</td>
+      <td>47,936</td>
+      <td>738,214</td>
+      <td>249,747</td>
+    </tr>
+    <tr>
+      <th>LTRK</th>
+      <td>16.96</td>
+      <td>6.51</td>
+      <td>4,197</td>
+      <td>71,181</td>
+      <td>27,322</td>
+    </tr>
+    <tr>
+      <th>HTRK</th>
+      <td>43.74</td>
+      <td>24.06</td>
+      <td>1,602</td>
+      <td>70,071</td>
+      <td>38,544</td>
+    </tr>
+    <tr>
+      <th>TAXI</th>
+      <td>19.94</td>
+      <td>8.08</td>
+      <td>1,075</td>
+      <td>21,436</td>
+      <td>8,686</td>
+    </tr>
+    <tr>
+      <th>EI</th>
+      <td>NA</td>
+      <td>NA</td>
+      <td>0</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>AIRP</th>
+      <td>127.77</td>
+      <td>76.46</td>
+      <td>1,457</td>
+      <td>186,161</td>
+      <td>111,402</td>
+    </tr>
+    <tr>
+      <th>COL</th>
+      <td>35.52</td>
+      <td>17.98</td>
+      <td>5,115</td>
+      <td>181,685</td>
+      <td>91,968</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+   <div class="Manatee" id="Manatee">
+    <h4 style="padding: 10px 0;color:black">
+    Manatee Off-Peak Trip Length  </h4><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Average Trip Length (Minutes)</th>
+      <th>Average Trip Length (Miles)</th>
+      <th>Total Trips</th>
+      <th>Total Trip Length (Minutes)</th>
+      <th>Total Trip Length (Miles)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>HBW</th>
+      <td>24.17</td>
+      <td>16.16</td>
+      <td>3,420</td>
+      <td>82,661</td>
+      <td>55,267</td>
+    </tr>
+    <tr>
+      <th>HBSH</th>
+      <td>28.15</td>
+      <td>19.21</td>
+      <td>4,505</td>
+      <td>126,816</td>
+      <td>86,541</td>
+    </tr>
+    <tr>
+      <th>HBSR</th>
+      <td>27.73</td>
+      <td>19.3</td>
+      <td>9,326</td>
+      <td>258,610</td>
+      <td>179,992</td>
+    </tr>
+    <tr>
+      <th>HBSC</th>
+      <td>9.78</td>
+      <td>4.45</td>
+      <td>1,456</td>
+      <td>14,240</td>
+      <td>6,479</td>
+    </tr>
+    <tr>
+      <th>HBO</th>
+      <td>18.36</td>
+      <td>11.93</td>
+      <td>5,228</td>
+      <td>95,986</td>
+      <td>62,370</td>
+    </tr>
+    <tr>
+      <th>NHBW</th>
+      <td>10.73</td>
+      <td>6.28</td>
+      <td>782</td>
+      <td>8,391</td>
+      <td>4,911</td>
+    </tr>
+    <tr>
+      <th>NHBO</th>
+      <td>10.88</td>
+      <td>6.22</td>
+      <td>2,621</td>
+      <td>28,516</td>
+      <td>16,303</td>
+    </tr>
+    <tr>
+      <th>LTRK</th>
+      <td>8.88</td>
+      <td>5.14</td>
+      <td>267</td>
+      <td>2,371</td>
+      <td>1,372</td>
+    </tr>
+    <tr>
+      <th>HTRK</th>
+      <td>18.95</td>
+      <td>13.47</td>
+      <td>108</td>
+      <td>2,047</td>
+      <td>1,455</td>
+    </tr>
+    <tr>
+      <th>TAXI</th>
+      <td>14.45</td>
+      <td>8.46</td>
+      <td>90</td>
+      <td>1,300</td>
+      <td>761</td>
+    </tr>
+    <tr>
+      <th>EI</th>
+      <td>NA</td>
+      <td>NA</td>
+      <td>0</td>
+      <td>NA</td>
+      <td>NA</td>
+    </tr>
+    <tr>
+      <th>AIRP</th>
+      <td>54.62</td>
+      <td>40.3</td>
+      <td>44</td>
+      <td>2,403</td>
+      <td>1,773</td>
+    </tr>
+    <tr>
+      <th>COL</th>
+      <td>31.49</td>
+      <td>20.68</td>
+      <td>1,322</td>
+      <td>41,630</td>
+      <td>27,339</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        </body>
+        </html>
+        

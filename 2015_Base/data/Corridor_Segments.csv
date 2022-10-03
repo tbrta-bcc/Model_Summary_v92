@@ -1,0 +1,788 @@
+"COUNTY,N,4,2","CORRIDOR,N,6,2",Corridor,"C_LABEL,C,75","SEG_FROM,C,75","SEG_TO,C,75"
+1,1,1001001,US 41 / Tamiami Trail / SR 45,Manatee / Hillsborough Co Line,SR 674 / College Ave
+1,1,1001002,US 41 / Tamiami Trail / SR 45,SR 674 / College Ave,Big Bend Rd / CR 672
+1,2,1002001,US 41 / SR 45,Big Bend Rd / CR 672,Gibsonton Dr
+1,2,1002002,US 41 / SR 45,Gibsonton Dr,Madison Ave / CR 676A
+1,2,1002003,US 41 / 50th St / SR 45,Madison Ave / CR 676A,Causeway Blvd / 22nd St / SR 676
+1,3,1003001,US 41 / Nebraska Ave / SR 45,Busch Blvd / SR 580,Fowler Ave / SR 582
+1,3,1003002,US 41 / Nebraska Ave / SR 45,Fowler Ave / SR 582,Fletcher Ave / SR 582A
+1,3,1003003,US 41 / Nebraska Ave / SR 45,Fletcher Ave / SR 582A,Bearss Ave
+1,4,1004001,US 41 / Nebraska Ave / SR 45,Bearss Ave,Florida Ave
+1,4,1004002,US 41 / SR 45,Florida Ave,Crenshaw Lake Rd
+1,4,1004003,US 41 / SR 45,Crenshaw Lake Rd,Debuel Rd
+1,4,1004004,US 41 / SR 45,Debuel Rd,Sunset Ln / Co Hwy 583A
+1,4,1004005,US 41 / SR 45,Sunset Ln / Co Hwy 583A,W Lutz Lake Fern Rd
+1,4,1004006,US 41 / SR 45,W Lutz Lake Fern Rd,Hillsborough / Pasco Co Line
+3,5,3005001,US 41 / SR 45,SR 54,Ehren Cutoff / CR 583
+3,5,3005002,US 41 / SR 45,Ehren Cutoff / CR 583,SR 52
+3,6,3006001,US 41 / SR 45,SR 52,Pasco / Hernando Co Line
+4,7,4007001,US 41 / S Broad St / SR 45,Pasco / Hernando Co Line,Ayers Rd /  CR 576
+4,7,4007002,US 41 / S Broad St / SR 45,Ayers Rd /  CR 576,Spring Hill Dr / CR 574
+4,7,4007003,US 41 / S Broad St / SR 45,Spring Hill Dr / CR 574,SR 50 / Cortez Blvd
+4,8,4008001,US 41 / S Broad St / SR 45,SR 50 / Cortez Blvd,US 98 / Ponce De Leon Blvd
+4,8,4008002,US 41 / Broad St / Jefferson St,US 98 / Ponce De Leon Blvd,SR 50A / E Jefferson St / US 98
+4,8,4008003,US 41 / N Broad St / SR 45,SR 50A / E Jefferson St / US 98,Howell Ave @ Yontz Rd / CR 485B
+4,8,4008004,US 41 / N Broad St / SR 45,Howell Ave @ Yontz Rd / CR 485B,Snow Memorial Hwy / CR 581
+4,8,4008005,US 41 / N Broad St / SR 45,Snow Memorial Hwy / CR 581,Hernando / Citrus Co Line
+5,9,5009001,US 41,Hernando / Citrus Co Line,CR 48 / Orange Ave
+5,9,5009002,US 41,CR 48 / Orange Ave,SR 44 / Gulf to Lake Hwy
+5,9,5009003,US 41 / SR 44 / Gulf to Lake Hwy,SR 44 / Gulf to Lake Hwy,SR 44 @ Talmage Ave
+5,9,5009004,US 41,SR 44 @ Talmage Ave,E Norvell Bryant Hwy / SR 486
+5,9,5009005,US 41,E Norvell Bryant Hwy / SR 486,N Lecanto Hwy
+5,9,5009006,US 41,N Lecanto Hwy,Citrus / Marion Co Line
+1,10,1010001,I-4,I-275,21th St Exit
+1,10,1010002,I-4,21th St Exit,40th St Exit
+1,10,1010003,I-4,40th St Exit,50th St Exit
+1,10,1010004,I-4,50th St Exit,E Martin Luther King Jr Blvd / SR 574 Exit
+1,10,1010005,I-4,E Martin Luther King Jr Blvd / SR 574 Exit,US 301 Exit
+1,10,1010006,I-4,US 301 Exit,I-75 Exit
+1,11,1011001,I-4,I-75 Exit,Mango Rd Exit
+1,11,1011002,I-4,Mango Rd Exit,McIntosh Rd Exit
+1,11,1011003,I-4,McIntosh Rd Exit,Branch Forbes Rd Exit
+1,11,1011004,I-4,Branch Forbes Rd Exit,Thonotosassa Rd Exit
+1,11,1011005,I-4,Thonotosassa Rd Exit,Alexander St Exit
+1,11,1011006,I-4,Alexander St Exit,SR 39 Exit / Wheeler St
+1,11,1011007,I-4,SR 39 Exit / Wheeler St,Park Rd Exit
+1,11,1011008,I-4,Park Rd Exit,Hillsborough / Polk Co Line
+2,12,2012001,Gulf to Bay Blvd / SR 60 / Courtney Campbel,Memorial Causeway,N Ft. Harrison
+2,12,2012002,Gulf to Bay Blvd / SR 60 / Courtney Campbel,N Ft. Harrison,S MLK Jr Ave
+2,12,2012003,Gulf to Bay Blvd / SR 60 / Courtney Campbel,S MLK Jr Ave,Highland Ave
+2,12,2012004,Gulf to Bay Blvd / SR 60 / Courtney Campbel,Highland Ave,Keene Road
+2,12,2012005,Gulf to Bay Blvd / SR 60 / Courtney Campbel,Keene Road,Belcher Road
+2,12,2012006,Gulf to Bay Blvd / SR 60 / Courtney Campbel,Belcher Road,US 19
+2,12,2012007,Gulf to Bay Blvd / SR 60 / Courtney Campbel,US 19,McMullen-Booth Rd
+2,12,2012008,Gulf to Bay Blvd / SR 60 / Courtney Campbel,McMullen-Booth Rd,Hillsborough/Pinellas CL
+1,13,1013001,Courtney Campbell Cswy / SR 60,Pinellas / Hillsborough Co Line,Rocky Point
+1,13,1013002,Courtney Campbell Cswy / SR 60,Rocky Point,Eisenhower Blvd / Veterans Expwy / SR 589
+1,14,1014001,Memorial Hwy / SR 60,Kennedy Blvd / SR 60,Terminal Pkwy
+1,14,1014002,Memorial Hwy / SR 60,Terminal Pkwy,Courtney Campbell Cswy / SR 60
+1,15,1015001,Adamo Dr / SR 60,13th St / Channelside Dr,19th St
+1,15,1015002,Adamo Dr / SR 60,19th St,39th St
+1,15,1015003,Adamo Dr / SR 60,39th St,50th St
+1,16,1016001,Adamo Dr / SR 60,50th St,78th St
+1,16,1016002,Adamo Dr / SR 60,78th St,US 301
+1,17,1017001,Adamo Dr / SR 60,US 301,I-75
+1,18,1018001,Brandon Blvd,I-75,Lakewood Dr
+1,18,1018002,Brandon Blvd,Lakewood Dr,Lithia Pinecrest Rd / CR 640
+1,18,1018003,Brandon Blvd,Lithia Pinecrest Rd,Valrico Rd
+1,18,1018004,Brandon Blvd,Valrico Rd,Dover Rd / Overstreet Hill Rd
+1,18,1018005,Brandon Blvd,Dover Rd / Overstreet Hill Rd,Turkey Creek Rd
+2,19,2019001,US 19,I-275,54th Ave S
+2,19,2019002,US 19,54th Ave S,22nd Ave S / Lakeview
+2,19,2019003,US 19,22nd Ave S / Lakeview,5th Ave S
+2,19,2019004,US 19,5th Ave S,5th Ave N / US Alt 19 / SR 595
+2,19,2019005,US 19,5th Ave N / US Alt 19 / SR 595,22nd Ave N
+2,19,2019006,US 19,22nd Ave N,38th Ave N
+2,19,2019007,US 19,38th Ave N,54th Ave N
+2,19,2019008,US 19,54th Ave N,62nd Ave N
+2,19,2019009,US 19,62nd Ave N,70th Ave
+2,19,20190010,US 19,70th Ave / Haines Rd,Park Blvd / Gandy Blvd
+2,20,2020001,US 19,Park Blvd / Gandy Blvd / 74th Ave,49th St / CR 611
+2,20,2020002,US 19,49th St / CR 611,118th Ave N
+2,20,2020003,US 19,118th Ave N,66th St
+2,20,2020004,US 19,66th St,Whitney Rd
+2,20,2020005,US 19,Whitney Rd,Belleair Rd
+2,20,2020006,US 19,Belleair Rd,Druid Rd
+2,21,2021001,US 19,Druid Rd,Drew St
+2,21,2021002,US 19,Drew St,Coachman / SR 590
+2,21,2021003,US 19,Coachman / SR 590,Sunset Pt
+2,21,2021004,US 19,Sunset Pt,Enterprise Rd
+2,21,2021005,US 19,Enterprise Rd,Countryside Blvd N
+2,21,2021006,US 19,Countryside Blvd N,Main St / SR 580
+2,21,2021007,US 19,Main St / SR 580,Curlew Rd
+2,21,2021008,US 19,Curlew Rd,Tampa Rd / CR 752
+2,21,2021009,US 19,Tampa Rd / CR 752,Nebraska Ave / US 41
+2,21,2021010,US 19,Nebraska Ave / US 41,Alderman Rd
+2,21,2021011,US 19,Alderman Rd,Klosterman Rd
+2,21,2021012,US 19,Klosterman Rd,Tarpon Ave
+2,21,2021013,US 19,Tarpon Ave,Live Oak St
+2,21,2021014,US 19,Live Oak St,Pinellas / Pasco Co Line
+3,21,3021015,US 19,Pinellas / Pasco Co Line,US 19 Alt
+3,22,3022001,US 19,US 19 Alt,Darlington Rd
+3,22,3022002,US 19,Darlington Rd,SR 54
+3,22,3022003,US 19,SR 54,Trouble Creek Rd
+3,22,3022004,US 19,Trouble Creek Rd,Main St
+3,22,3022005,US 19,Main St,Ridge Rd
+3,140,3140001,US 19,Hudson Ave,New York Ave
+3,140,3140002,US 19,New York Ave,Aripeka Rd
+3,140,3140003,US 19,Aripeka Rd,Pasco / Hernando Co Line
+4,23,4023004,US 19,Pasco / Hernando Co Line,Spring Hill Dr / CR 574
+4,23,4023005,US 19,Spring Hill Dr / CR 574,SR 50 / Cortez Blvd
+4,23,4023006,US 19,SR 50 / Cortez Blvd,Centralia Rd
+4,23,4023007,US 19,Centralia Rd,Hernando / Citrus Co Line
+5,24,5024001,US 19,Hernando / Citrus Co Line,US 98 / Ponce De Leon Blvd
+5,24,5024002,US 19,US 98 / Ponce De Leon Blvd,W Grover Cleveland Blvd
+5,24,5024003,US 19,W Grover Cleveland Blvd,SR 44 / W Gulf to Lake Hwy
+5,24,5024004,US 19,SR 44 / W Gulf to Lake Hwy,SR 488 / W Dunellon Rd
+5,24,5024005,US 19,SR 488 / W Dunellon Rd,Citrus / Levy Co Line
+1,25,1025001,Gandy Blvd,Pinellas / Hillsborough Co Line,Westshore Blvd / SR 587
+1,25,1025002,Gandy Blvd,Westshore Blvd / SR 587,Manhattan Ave
+1,25,1025003,Gandy Blvd,Manhattan Ave,Dale Mabry Hwy / SR 597
+1,26,1026001,E Martin Luther King Jr Blvd / SR 574,I-275,Nebraska Ave / US 41 / SR 45
+1,26,1026002,E Martin Luther King Jr Blvd / SR 574,Nebraska Ave / US 41 / SR 45,22nd St
+1,26,1026003,E Martin Luther King Jr Blvd / SR 574,22nd St,40th St / US 41
+1,26,1026004,E Martin Luther King Jr Blvd / SR 574,40th St / US 41,50th St / SR 583
+1,26,1026005,E Martin Luther King Jr Blvd / SR 574,50th St / SR 583,I-4
+1,27,1027001,E Martin Luther King Jr Blvd / SR 574,I-4,US 301
+1,27,1027002,E Martin Luther King Jr Blvd / SR 574,US 301,I-75
+1,28,1028001,E Martin Luther King Jr Blvd / SR 574,I-75,Mango Rd
+1,28,1028002,E Martin Luther King Jr Blvd / SR 574,Mango Rd,Kingsway Rd
+1,28,1028003,E Martin Luther King Jr Blvd / SR 574,Kingsway Rd,McIntosh Rd
+1,28,1028004,E Martin Luther King Jr Blvd / SR 574,McIntosh Rd,Branch Forbes Rd
+1,28,1028005,E Martin Luther King Jr Blvd / SR 574,Branch Forbes Rd,Sammonds Rd
+1,28,1028006,W Reynolds Rd / SR 574,Sammonds Rd,Alexander St
+1,29,1029001,US 92 / SR 574 / Reynolds Rd / Baker St,Alexander St,Wheeler Rd
+1,29,1029002,US 92 / SR 574 / Reynolds Rd / Baker St,SR 553 / Park St,Hillsborough / Polk Co Line
+1,29,1029003,US 92 / SR 574 / Reynolds Rd / Baker St,Wheeler Rd,SR 553 / Park St
+2,30,2030001,4th St N,5th Ave N,22nd Ave N
+2,30,2030002,4th St N,22nd Ave N,30th Ave N
+2,30,2030003,4th St N,30th Ave N,38th Ave N
+2,30,2030004,4th St N,38th Ave N,54th Ave N
+2,30,2030005,4th St N,54th Ave N,62nd Ave N
+2,30,2030006,4th St N,62nd Ave N,83rd Ave N
+2,30,2030007,4th St N,83rd Ave N,Gandy Blvd
+2,31,2031001,9th St N,5th Ave N,22nd Ave N
+2,31,2031002,9th St N,22nd Ave N,30th Ave N
+2,31,2031003,9th St N,30th Ave N,38th Ave N
+2,31,2031004,9th St N,38th Ave N,54th Ave N
+2,31,2031005,9th St N,54th Ave N,62nd Ave N
+2,31,2031006,9th St N,62nd Ave N,83rd Ave N
+2,31,2031007,9th St N,83rd Ave N,Gandy Blvd
+2,31,2031008,9th St N,Gandy Blvd,I-275
+2,32,2032001,Ulmerton Rd,Gulf Blvd,Indian Rocks Rd
+2,32,2032002,Ulmerton Rd,Indian Rocks Rd,Walsingham Rd
+2,32,2032003,Ulmerton Rd,Walsingham Rd,Ridge Rd
+2,32,2032004,Ulmerton Rd,Ridge Rd,Seminole Blvd
+2,32,2032005,Ulmerton Rd,Seminole Blvd,Starkey Rd
+2,32,2032006,Ulmerton Rd,Starkey Rd,Belcher Rd
+2,32,2032007,Ulmerton Rd,Belcher Rd,66th St / Hains Rd
+2,32,2032008,Ulmerton Rd,66th St / Hains Rd,US 19
+2,32,2032009,Ulmerton Rd,US 19,49th St
+2,32,2032010,Ulmerton Rd,49th St,Roosevelt Blvd
+2,32,2032011,Ulmerton Rd,Roosevelt Blvd,Roosevelt Blvd
+2,32,2032012,Ulmerton Rd,Roosevelt Blvd,I-275
+2,33,2033001,West Bay Dr,Indian Rocks Rd,Clearwater Largo Rd
+2,33,2033002,East Bay Dr,Clearwater Largo Rd,Missouri Ave / Seminole Blvd
+2,33,2033003,East Bay Dr,Missouri Ave / Seminole Blvd,Highland Ave
+2,33,2033004,East Bay Dr,Highland Ave,Belcher Rd
+2,33,2033005,East Bay Dr,Belcher Rd,US 19
+2,33,2033006,Roosevelt Blvd,US 19,58th St
+2,33,2033007,Roosevelt Blvd,58th St,49th St / CR 611
+2,33,2033008,Roosevelt Blvd,49th St / CR 611,Ulmerton Rd
+2,33,2033009,Roosevelt Blvd,Ulmerton Rd,28th St N
+2,33,2033010,Roosevelt Blvd,28th St N,I-275
+2,33,2033011,Roosevelt Blvd,I-275,9th St N / Martin Lurther King Jr St
+2,33,2033012,Roosevelt Blvd,9th St N / Martin Lurther King Jr St,Gandy Blvd
+2,34,2034001,Roosevelt Boulevard Ext (Pinellas Co),49th St Bridge (Bayside Bridge),CR 296 / 118th Ave N
+2,35,2035001,US 19 Alt / 5th Ave N,US 19 / 34th St,49th St N
+2,35,2035002,US 19 Alt / 5th Ave N,49th St N,58th St N
+2,35,2035003,US 19 Alt / 59th St N,5th Ave N,9th Ave N
+2,35,2035004,US 19 Alt / Tyrone Blvd,9th Ave N,66th St
+2,35,2035005,US 19 Alt / Tyrone Blvd,66th St,Park St
+2,35,2035006,US 19 Alt / Bay Pine,Park St,Seminole Blvd
+2,35,2035007,US 19 Alt / 5th Ave N,58th St,59th St N / US Alt 19
+2,36,2036001,Seminole,Bay Pines Blvd / Welch Cswy,Park Blvd / 74th St
+2,36,2036002,Seminole,Park Blvd / 74th St,102nd Ave
+2,36,2036003,Seminole,102nd Ave,Ulmerton Rd
+2,36,2036004,Seminole,Ulmerton Rd,E Bay Dr
+2,36,2036005,Missouri Ave,W Bay Dr,Ponce De Leon Blvd / Wyatt St
+2,36,2036006,Missouri Ave,Ponce De Leon Blvd / Wyatt St,Lakeview
+2,36,2036007,Missouri Ave,Lakeview,Druid Rd
+2,36,2036008,Missouri Ave,Druid Rd,Court St
+2,37,2037001,Myrtle Ave,Chestnut St,Drew St
+2,37,2037002,Myrtle Ave,Drew St,Ft Harrison Ave
+2,37,2037003,Edgewater Dr,Myrtle St,Union St
+2,37,2037004,Edgewater Dr,Union St,Main St
+2,37,2037005,Broadway / Bayshore Blvd,Main St,Skinner Blvd
+2,37,2037006,Broadway / Bayshore Blvd,Skinner Blvd,San Christopher Dr / Wilson St
+2,37,2037007,Broadway / Bayshore Blvd,San Christopher Dr / Wilson St,Michigan Blvd
+2,37,2037008,Broadway / Bayshore Blvd,Michigan Blvd,Curlew Rd
+2,37,2037009,Alt US 19,Curlew Rd,Tampa Rd / SR 580
+2,37,2037010,Alt US 19,Tampa Rd,Nebraska Ave / US 41
+2,37,2037011,Alt US 19,Nebraska Ave / US 41,Alderman Rd
+2,37,2037012,Alt US 19,Alderman,Klosterman
+2,37,2037013,S Pinellas Ave,Klosterman Rd,Martin Lurther King Jr Dr
+2,37,2037014,S Pinellas Ave,Martin Lurther King Jr Dr,Tarpon Ave / Keystone Rd
+2,37,2037015,N Pinellas Ave,Tarpon Ave / Keystone Rd,Live Oak St
+2,37,2037016,N Pinellas Ave,Live Oak St,Pinellas / Pasco Co Line
+3,37,3037017,US 19 Alt,New Anclote / Pinellas / Pasco Co Line,US 19
+2,38,2038001,Starkey,Park Blvd / 74th St,Bryan Dairy Rd
+2,38,2038002,Starkey,Bryan Dairy Rd,Ulmerton Rd
+2,39,2039001,Keene / Starkey Rd,Ulmerton Rd,East Bay Dr
+2,39,2039002,Keene,East Bay Dr,Belleair Rd
+2,39,2039003,Keene,Belleair Rd,Sunset Pt Blvd
+2,40,2040001,Belcher Rd,Park Blvd / 74th St,Bryan Dairy Rd
+2,40,2040002,Belcher Rd,Bryan Dairy Rd,Ulmerton Rd
+2,41,2041001,Belcher Rd,Ulmerton Rd,East Bay Dr
+2,41,2041002,Belcher Rd,East Bay Dr,Belleair Rd
+2,41,2041003,Belcher Rd,Belleair Rd,Sunset Pt Blvd
+2,42,2042001,66th St N,54th Ave,Park Blvd / 74th St
+2,42,2042002,66th St N,Park Blvd / 74th St,Bryan Dairy Rd
+2,42,2042003,66th St N,Bryan Dairy Rd,Ulmerton Rd
+3,43,3043001,Starkey Rd,Alico Pass,De Cubellis Rd
+1,44,1044001,Hillsborough Ave / SR 580,Pinellas / Hillsborough Co Line,Countryway Blvd
+1,44,1044002,Hillsborough Ave / SR 580,Countryway Blvd,Memorial Hwy / SR 60
+1,45,1045001,Hillsborough Ave / SR 580,Memorial Hwy,Hanley Rd
+1,45,1045002,Hillsborough Ave / SR 580,Hanley Rd,Eisenhower Blvd / Veterans Expwy / SR 589
+1,45,1045003,Hillsborough Ave / SR 580,Eisenhower Blvd / Veterans Expwy / SR 589,Anderson Rd
+1,45,1045004,Hillsborough Ave / SR 580,Anderson Rd,Dale Mabry Hwy / SR 597
+2,46,2046001,Curlew Rd,Alt US 19,Omaha St Extension / Keene Rd / CR 1
+2,46,2046002,Curlew Rd,Omaha St Extension / Keene Rd / CR 1,Belcher Rd
+2,46,2046003,Curlew Rd,Belcher Rd,US 19
+2,46,2046004,Curlew Rd,US 19,Countryside Blvd N
+2,46,2046005,Curlew Rd,Countryside Blvd N,McMullen-Booth Rd
+2,46,2046006,Curlew Rd,McMullen-Booth Rd,Tampa Rd / SR 580
+2,46,2046007,Tampa Rd,Alt US 19,Omaha St Extension / Keene Rd / CR 1
+2,46,2046008,Tampa Rd,Omaha St Extension / Keene Rd / CR 1,US 19
+2,46,2046009,Tampa Rd,US 19,McMullen-Booth Rd
+2,46,2046010,Tampa Rd,McMullen-Booth Rd,CR 580 / Curlew / Tampa Rd
+2,46,2046011,Tampa Rd,Tampa Rd,Forest Lake Blvd N
+2,46,2046012,Tampa Rd,Forest Lake Blvd N,Commerce Blvd
+2,46,2046013,Tampa Rd,Commerce Blvd,St. Petersburg Dr
+2,46,2046014,Tampa Rd,St Petersburg Dr,Race Track Rd
+2,47,204708,I-275,I-375,22nd Ave
+2,47,204709,I-275,22nd Ave,38th Ave N
+2,47,2047001,I-275,Manatee / Pinellas Co Line,54th Ave S
+2,47,2047002,I-275,54th Ave S,26th Ave S
+2,47,2047003,I-275,26th Ave S,22nd Ave S
+2,47,2047004,I-275,22nd Ave S,31st St S
+2,47,2047005,I-275,31st St S,28th St S
+2,47,2047006,I-275,28th St S,I-175
+2,47,2047007,I-275,I-175,I-375
+2,47,2047010,I-275,38th Ave N,54th Ave N
+2,47,2047011,I-275,54th Ave N,Gandy Blvd
+2,47,2047012,I-275,Gandy Blvd,Roosevelt Blvd
+2,47,2047013,I-275,Roosevelt Blvd,9th St / Martin Luther King
+2,47,2047014,I-275,9th St / Martin Lurther King,Ulmerton Rd
+2,47,2047015,I-275,4th St,Pinellas / Hillsborough Co Line
+1,48,1048001,I-275,Pinellas / Hillsborough Co Line,Kennedy Blvd / SR 60
+1,48,1048002,I-275,Kennedy Blvd / SR 60,Memorial Hwy / SR 60
+1,48,1048003,I-275,Memorial / SR 60,Westshore Blvd
+1,48,1048004,I-275,Westshore Blvd,Dale Mabry Hwy / SR 597
+1,48,1048005,I-275,Dale Mabry Hwy / SR 597,Howard Ave / Armenia Ave
+1,48,1048006,I-275,Howard Ave / Armenia Ave,Ashley St
+1,48,1048007,I-275,Ashley St,I-4
+1,49,1049001,I-275,I-4,E Martin Luther King Jr Blvd / SR 574
+1,49,1049002,I-275,E Martin Luther King Jr Blvd / SR 574,Hillsborough Ave / US 92
+1,49,1049003,I-275,Hillsborough Ave / US 92,Sligh Ave
+1,49,1049004,I-275,Sligh Ave,Bird St
+1,49,1049005,I-275,Bird St,Busch Blvd
+1,49,1049006,I-275,Busch Blvd,Fowler Ave
+1,49,1049007,I-275,Fowler Ave,Fletcher Ave
+1,49,1049008,I-275,Fletcher Ave,Bearss Ave
+1,50,1050001,I-275,Bearss Ave,Hillsborough / Pasco Co Line
+1,51,1051001,I-75,Manatee / Hillsborough Co Line,SR 674 / College Ave
+1,51,1051002,I-75,SR 674 / College Ave,Big Bend Rd / SR 672
+1,52,1052001,I-75,Big Bend Rd / SR 672,Gibsonton Dr
+1,52,1052002,I-75,Gibsonton Dr,US 301
+1,52,1052003,I-75,US 301,Leroy Selmon Crosstwon Expwy
+1,53,1053001,I-75,Leroy Selmon Crosstown Expwy,Brandon Blvd / Adamo Dr / SR 60
+1,53,1053002,I-75,Brandon Blvd / Adamo Dr / SR 60,E Martin Luther King Jr Blvd / SR 574
+1,53,1053003,I-75,E Martin Luther King Jr Blvd / SR 574,I-4
+3,54,3054001,I-75,Hillsborough / Pasco Co Line,SR 56
+3,54,3054002,I-75,SR 56,SR 54
+1,55,1055001,I-75,I-4,Fowler Ave
+1,55,1055002,I-75,Fowler Ave,Fletcher Ave / Morris Bridge Rd
+1,55,1055003,I-75,Fletcher Ave / Morris Bridge Rd,Bruce B Downs Blvd / 30th St
+1,55,1055004,I-75,Bruce B Downs Blvd / 30th St,I-275
+3,56,3056001,I-75,SR 54,SR 52
+3,56,3056002,I-75,SR 52,CR 41 / Blanton Rd
+3,56,3056003,I-75,CR 41 / Blanton Rd,Hernando / Pasco Co Line
+4,57,4057001,I-75,Hernando / Pasco Co Line,SR 50 / Cortez
+4,57,4057002,I-75,SR 50 / Cortez,Hernando / Sumter Co Line
+1,58,1058001,Dale Mabry Hwy,Interbay Blvd,Gandy Blvd
+1,58,1058002,Dale Mabry Hwy,Gandy Blvd,Leroy Selmon Crosstown Expwy
+1,58,1058003,Dale Mabry Hwy,Leroy Selmon Crosstown Expwy,Euclid Ave
+1,58,1058004,Dale Mabry Hwy,Euclid Ave,Bay to Bay
+1,58,1058005,Dale Mabry Hwy,Bay to Bay,Henderson Blvd
+1,58,1058006,Dale Mabry Hwy,Henderson Blvd,Kennedy Blvd / SR 60
+1,59,1059001,Dale Mabry Hwy,Kennedy Blvd / SR 60,I-275
+1,59,1059002,Dale Mabry Hwy,I-275,Columbus Dr / Boy Scout Blvd
+1,59,1059003,Dale Mabry Hwy,Columbus Dr / Boy Scout Blvd,W Martin Luther King Jr Blvd / SR 574
+1,59,1059004,Dale Mabry Hwy,Martin Luther King Blvd,Hillsborough Ave / SR 580
+1,60,1060001,Dale Mabry Hwy,Hillsborough Ave,Waters Ave
+1,60,1060002,Dale Mabry Hwy,Waters Ave,Busch Blvd
+1,60,1060003,Dale Mabry Hwy,Busch Blvd,Fletcher Ave
+1,60,1060004,Dale Mabry Hwy,Fletcher Ave,Ehrlich Rd / Bearss Ave
+1,60,1060005,Dale Mabry Hwy,Ehrlich Rd / Bearss Ave,Van Dyke Rd / 685A
+1,60,1060006,Dale Mabry Hwy,Van Dyke Rd / 685A,Veterans Expwy / SR 589
+1,60,1060007,Dale Mabry Hwy,Veterans Expwy / SR 589,W Lutz Lake Fern Rd
+1,60,1060008,Dale Mabry Hwy,W Lutz Lake Fern Rd,Hillsborough / Pasco  Co Line
+3,60,3060009,Dale Mabry Hwy,Hillsborough / Pasco Co Line,US 41 / Land O Lakes Blvd
+1,61,1061001,Fowler Ave,I-275,Nebraska Ave / US 41
+1,61,1061002,Fowler Ave,Nebraska Ave / US 41,30th St
+1,61,1061003,Fowler Ave,30th St,40th St / McKinley Dr
+1,61,1061004,Fowler Ave,40th St / McKinley Dr,56th St
+1,61,1061005,Fowler Ave,56th St,I-75
+1,61,1061006,Fowler Ave,Florida Ave,I-275
+1,61,1061007,Fowler Ave,I-75,US 301
+1,62,1062001,US 301,Manatee / Hillsborough Co Line,SR 674 / College Ave
+1,62,1062002,US 301,SR 674 / College Ave,Big Bend Rd / CR 672
+1,63,1063001,US 301,Big Bend Rd / CR 672,Gibsonton Dr / Boyette Rd
+1,63,1063002,US 301,Gibsonton Dr / Boyette Rd,I-75
+1,63,1063003,US 301,I-75,Lumsden Rd / SR 676
+1,63,1063004,US 301,Lumsden Rd / SR 676,Leroy Selmon Crosstown Expwy
+1,64,1064001,US 301,Leroy Selmon Crosstown Expwy,Brandon Blvd / Adamo Dr / SR 60
+1,64,1064002,US 301,Brandon Blvd / Adamo Dr / SR 60,E Martin Luther King Jr Blvd / SR 574
+1,64,1064003,US 301,E Martin Luther King Jr Blvd / SR 574,I-4 / US 92
+1,65,1065001,US 301,I-4 / US 92,Harney Rd
+1,65,1065002,US 301,Harney Rd,Fowler Ave
+1,66,1066001,US 301,Fowler Ave,McIntosh Rd
+1,66,1066002,US 301,McIntosh Rd,Hillsborough / Pasco Co Line
+3,67,3067001,US 301,Hillsborough / Pasco Co Line,SR 56
+3,67,3067002,US 301,SR 56,Chancey Rd
+3,67,3067003,US 301,Chancey Rd,SR 39 / Paul Buchman
+3,67,3067004,US 301,SR 39 / Paul Buchman,South Ave
+3,67,3067005,US 301,South Ave,SR 54 / 5thAve
+3,67,3067006,US 301,SR 54 / 5th Ave,6th St
+3,67,3067007,US 301,6th St,CR 54
+3,67,3067008,US 301,CR 54,Boundary Ln / Kossik Rd
+3,67,3067009,US 301,Boundary Ln / Kossik Rd,US 98 / US 700 / US 35
+3,67,3067010,US 301,US 98 / US 700 / US 35,S 7th St
+3,67,3067011,S 7th St,S 7th St,SR 52 / Meridian Ave.
+3,67,3067012,N 7th St,SR 52 / Meridian Ave,US 301 / US 98 / SR 35
+3,67,3067013,US 301,N 7th St,Payne Rd
+3,67,3067014,US 301,Payne Rd,US 98
+3,67,3067015,US 301,US 98,Hernando / Pasco Co Line
+4,68,4068001,US 301,Hernando / Pasco Co Line,SR 50 / Cortez Blvd
+4,68,4068002,US 301,SR 50 / Cortez Blvd,Hernando / Sumter Co Line
+3,69,3069001,SR 54,US 19,Grand / CR 595
+3,69,3069002,SR 54,Grand / CR 595,Madison St
+3,69,3069003,SR 54,Madison St,Old County Rd 54
+3,69,3069004,SR 54,Old County Rd 54,Little Rd
+3,70,3070001,SR 54,Little Rd,Gunn Hwy
+3,70,3070002,SR 54,Gunn Hwy,Suncoast Pkwy / SR 589
+3,70,3070003,SR 54,Suncoast Pkwy / SR 589,US 41 / Land O Lakes Blvd
+3,71,3071001,SR 54,US 41 / Land O Lakes Blvd,Livingston Rd
+3,71,3071002,SR 54,Livingston Rd,SR 56
+3,71,3071003,SR 56,SR 56,I-75
+3,72,3072001,SR 54,Bruce B Downs Blvd / CR 581,CR 577 / Curley
+3,72,3072002,SR 54,CR 577 / Curley,Morris Bridge Rd
+3,73,3073001,SR 52,US 19,Fivay Rd / Little Rd
+3,73,3073002,SR 52,Fivay Rd / Little Rd,Hicks Rd
+3,74,3074001,SR 52,Hicks Rd,Moon Lake Rd
+3,74,3074002,SR 52,Moon Lake Rd,Suncoast Pkwy / SR 589
+3,74,3074003,SR 52,Suncoast Pkwy / SR 589,US 41 / SR 45
+3,75,3075001,SR 52,US 41 / SR 45,Ehren Rd
+3,75,3075002,SR 52,Ehren Rd,I-75
+3,76,3076001,SR 52,I-75,Curley St
+3,76,3076002,SR 52,Curley St,N 21st St / Meridian Ave
+3,76,3076003,SR 52 / Meridian Ave,N 21st St,7th St / SR 35 / SR 700
+3,76,3076004,SR 52 / Meridian Ave,7th St / SR 35 / SR 700,US 301 / US 98
+1,77,1077001,Gunn Hwy,Dale Mabry Hwy / SR 597,Lynn Rd / Turner Rd
+1,77,1077002,Gunn Hwy,Lynn Rd / Turner Rd,Veterans Expwy / SR 589
+1,78,1078001,Gunn Hwy,Veterans Expwy / SR 589,Ehrlich Rd
+1,78,1078002,Gunn Hwy,Ehrlich Rd,Race Track Rd
+1,78,1078003,Gunn Hwy,Race Track Rd,Van Dyke Rd
+1,78,1078004,Gunn Hwy,Van Dyke Rd,Hillsborough / Pasco Co Line
+3,78,3078005,Gunn Hwy,Hillsborough / Pasco Co Line,SR 54
+3,79,3079001,Gunn Hwy (Pasco Co),Hillsborough / Pasco Co Line,SR 54
+4,80,4080001,SR 50 / Cortez Blvd,US 19,Deltona Blvd
+4,80,4080002,SR 50 / Cortez Blvd,Deltona Blvd,Mariner Blvd
+4,80,4080003,SR 50 / Cortez Blvd,Mariner Blvd,Cobb Rd
+4,81,4081001,SR 50 / Cortez Blvd,SR 50A / W Jefferson St,US 41 / Broad St
+4,81,4081002,SR 50 / Cortez Blvd,US 41 / Broad St,US 98 / SR 50 / Cortez Blvd
+4,82,4082001,SR 50 / Cortez Blvd,SR 50A / E Jefferson St,Spring Lake Hwy / CR 541 / Mondon Hill Rd
+4,82,4082002,SR 50 / Cortez Blvd,Spring Lake Hwy / CR 541,I-75
+4,83,4083001,SR 50 / Cortez Blvd,I-75,US 98 / Mckethan Rd
+4,83,4083002,SR 50 / Cortez Blvd,US 98 / Mckethan Rd,US 301 / SR 35 / Treiman Blvd
+4,83,4083003,SR 50 / Cortez Blvd,US 301 /  SR 35 / Treiman Rd,Hernando / Sumter Co Line
+1,84,1084001,W Martin Luther King Jr Blvd / SR 574,Dale Mabry Hwy / SR 597,Armenia Ave
+1,84,1084002,W Martin Luther King Jr Blvd / SR 574,Armenia Ave,Boulevard
+1,84,1084003,W Martin Luther King Jr Blvd / SR 574,Boulevard,Highland Ave
+1,84,1084004,W Martin Luther King Jr Blvd / SR 574,Highland Ave,Florida Ave
+1,84,1084005,E Martin Luther King Jr Blvd / SR 574,Florida Ave,I-275
+1,85,1085001,Westshore Blvd,Gandy Blvd,Euclid Ave
+1,85,1085002,Westshore Blvd,Euclid Ave,Bay to Bay
+1,85,1085003,Westshore Blvd,Bay to Bay,Swann Ave
+1,85,1085004,Westshore Blvd,Swann Ave,Kennedy Blvd / SR 60
+1,86,1086001,Westshore Blvd,Kennedy Blvd / SR 60,I-275
+1,86,1086002,Westshore Blvd,I-275,Spruce St / Boyscout Blvd
+1,87,1087001,Spruce St / Boyscout Blvd,Memorial Hwy,Westshore Blvd
+1,87,1087002,Boy Scout Rd / Columbus Dr,Westshore Blvd,Lois Ave
+1,87,1087003,Boy Scout Rd / SR 589,Lois Ave,Dale Mabry Hwy / SR 597 / US 92
+1,88,1088001,Leroy Selmon Crosstown Expwy / SR 618,Gandy Blvd,Euclid Ave
+1,88,1088002,Leroy Selmon Crosstown Expwy / SR 618,Euclid Ave,Bay to Bay
+1,88,1088003,Leroy Selmon Crosstown Expwy / SR 618,Bay to Bay,Willow Ave
+1,89,1089001,Leroy Selmon Crosstown Expwy / SR 618,Willow Ave,Plant Ave
+1,89,1089002,Leroy Selmon Crosstown Expwy / SR 618,Plant Ave,Florida Ave
+1,89,1089003,Leroy Selmon Crosstown Expwy / SR 618,Florida Ave,Morgan St
+1,89,1089004,Leroy Selmon Crosstown Expwy / SR 618,Morgan St,Kennedy Blvd / SR 60
+1,89,1089005,Leroy Selmon Crosstown Expwy / SR 618,Kennedy Blvd / SR 60,22nd St
+1,89,1089006,Leroy Selmon Crosstown Expwy / SR 618,22nd St,39th St
+1,89,1089007,Leroy Selmon Crosstown Expwy / SR 618,39th St,50th St
+1,89,1089008,Leroy Selmon Crosstown Expwy / SR 618,50th St,78th St
+1,89,1089009,Leroy Selmon Crosstown Expwy / SR 618,78th St,US 301
+1,89,1089010,Leroy Selmon Crosstown Expwy / SR 618,US 301,Faulkenberg Rd
+1,89,1089011,Leroy Selmon Crosstown Expwy / SR 618,Faulkenberg Rd,I-75
+2,90,2090001,McMullen-Booth Rd,Courtney Campbell Cswy / SR 60 / Gulf to Bay,SR 590 / 10th St S
+2,90,2090002,McMullen-Booth Rd,SR 590 / 10th St S,Main St / Sunset Point Rd / CR 576
+2,90,2090003,McMullen-Booth Rd,Main St / Sunset Point Rd / CR 576,SR 580
+2,90,2090004,McMullen-Booth Rd,SR 580,Curlew Rd / SR 586
+2,90,2090005,McMullen-Booth Rd,Curlew Rd / SR 586,Tampa Rd / SR 584 / CR 572
+2,91,2091001,McMullen-Booth Rd,Tampa Rd / SR 584 / CR 572,Tarpon Woods Blvd / Sandy Point Rd
+2,91,2091002,McMullen-Booth Rd,Tarpon Woods Blvd / Sandy Point Rd,Keystone Rd
+2,91,2091003,McMullen-Booth Rd,Keystone Rd,Pinellas / Pasco Co Line
+3,91,3091004,Seven Springs Blvd,Pinellas / Pasco Co Line,SR 54
+1,92,1092001,Kennedy Blvd / SR 60,Memorial Hwy / SR 60,Westshore Blvd
+1,92,1092002,Kennedy Blvd / SR 60,Westshore Blvd,Lois Ave
+1,92,1092003,Kennedy Blvd / SR 60,Lois Ave,Dale Mabry Hwy / SR 597
+1,93,1093001,Veterans Expwy / SR 589,Hillsborough Ave,Waters Ave
+1,93,1093002,Veterans Expwy / SR 589,Waters Ave,Anderson Rd
+1,93,1093003,Veterans Expwy / SR 589,Anderson Rd,Linebaugh Ave
+1,93,1093004,Veterans Expwy / SR 589,Linebaugh Ave,Gunn Hwy
+1,93,1093005,Veterans Expwy / SR 589,Gunn Hwy,Ehrlich Rd
+1,93,1093006,Veterans Expwy / SR 589,Ehrlich Rd,Hutchison Rd
+1,93,1093007,Veterans Expwy / SR 589,Hutchison Rd,Suncoast Pkwy / SR 589
+1,93,1093008,Veterans Expwy / SR 589 - Express Lanes,Memorial Hwy / SR 60,Gunn Hwy
+1,93,1093009,Veterans Expwy / SR 589 - Express Lanes,Gunn Hwy,Suncoast Pkwy / SR 589
+1,93,1093010,Veterans Expwy / SR 589,Memorial Hwy / SR 60,Hillsborough Ave / SR 580
+1,94,1094001,Suncoast  Pkwy / SR 589,Veterans Expwy / SR 589,Van Dyke Rd
+1,94,1094002,Suncoast  Pkwy / SR 589,Van Dyke Rd,Lutz Lake Fern
+1,95,1095001,Gibsonton Rd,US 41,I-75
+1,96,1096001,CR 39,SR 674 / Ruskin-Wimauma Rd,Lithia Pinecrest Rd / CR 640
+1,96,1096002,CR 39,CR 640 / Lithia Pinecrest Rd,SR 60
+1,97,1097001,Branch Forbes Rd,SR 574 / Dr Martin Lurther King Jr Blvd,I-4
+1,97,1097002,Branch Forbes Rd,I-4,SR 580 / Thonotosassa Rd / Sam Allen Rd
+1,98,1098001,Sheldon Rd,Hillsborough Ave,Ehrlich Rd / Gunn Hwy
+1,99,1099001,Bearss Ave,Florida Ave,Nebraska Ave / US 41
+1,99,1099002,Bearss Ave,Nebraska Ave / US 41,Bruce B Downs Blvd / 30th St / CR 581
+1,100,1100001,Bearss / Bruce B Downs Blvd / CR 581,Bruce B Downs Blvd / 30th St / CR 581,I-75
+1,100,1100002,Bearss / Bruce B Downs Blvd / CR 581,I-75,Cross Creek Blvd
+3,101,3101001,US 98,US 301,Pasco / Hernando County Line
+4,101,4101002,US 98,Pasco / Hernando County Line,SR 50
+4,102,4102001,Ponce De Leon Blvd,Broad St / US 41 / SR 45,Jefferson St / SR 50A
+4,102,4102002,Ponce De Leon Blvd,Jefferson St / SR 50A,North Ave / Manecke Rd
+4,102,4102003,Ponce De Leon Blvd,North Ave / Manecke Rd,Yontz Rd
+4,102,4102004,Ponce De Leon Blvd,Yontz Rd,CR 628 / Lindsey Lake Rd
+4,102,4102005,Ponce De Leon Blvd,CR 628 / Lindsey Lake Rd,Citrus Way / CR 491
+4,102,4102006,Ponce De Leon Blvd,Citrus Way / CR 491,Suncoast Pkwy / SR 589
+4,102,4102007,Ponce De Leon Blvd,Suncoast Pkwy / SR 589,Hernando / Citrus Co Line
+5,102,5102005,Ponce De Leon Blvd,Hernando / Citrus Co Line,US 19
+2,103,2103001,CR 296 / Bryan Dairy Rd,Seminole Blvd,Starkey Rd
+2,103,2103002,CR 296 / Bryan Dairy Rd,Starkey Rd,Belcher Road
+2,103,2103003,CR 296 / Bryan Dairy Rd,Belcher Road,66th St
+2,103,2103004,CR 296 / 188th St N,66th St,US 19
+2,103,2103005,CR 296 / 188th St N,US 19,4th St N / US 92
+2,103,2103006,CR 296 / 188th St N,4th St N / US 92,I-275
+3,104,3104001,Trinity Blvd (Pasco Co),Pinellas / Pasco Co Line,Little Road
+3,104,3104002,Trinity Blvd (Pasco Co),Little Road,SR 54
+3,105,3105001,Mitchell Blvd,CR 77 / Seven Springs Blvd,Little Rd
+3,106,3106001,Little Rd,Trinity Blvd,SR 54
+3,106,3106002,Little Rd,SR 54,Old County Rd 54
+3,106,3106003,Little Rd,Old County Rd 54,Trouble Creek Rd
+3,106,3106004,Little Rd,Trouble Creek Rd,Massachussetts Ave / Decubellis
+3,106,3106005,Little Rd,Massachussetts Ave / Decubellis,CR 587A / Ridge Rd
+3,106,3106006,Little Rd,CR 587A / Ridge Rd,Jasmine Blvd
+3,106,3106007,Little Rd,Jasmine Blvd,SR 52
+3,106,3106008,Little Rd,SR 52,Hudson Ave
+3,106,3106009,Little Rd,Hudson Ave,New York Ave
+3,106,3106010,Little Rd,New York Ave,US 19
+3,107,3107001,CR 77 / Seven Springs / Rowan,SR 54,Baillie Dr / SR 518
+3,107,3107002,CR 77 / Seven Springs / Rowan,Baillie Dr / SR 518,Nebraska Ave / US 41
+3,107,3107003,CR 77 / Seven Springs / Rowan,Nebraska Ave / US 41,Massachussetts Ave / CR 587
+3,107,3107004,CR 77 / Seven Springs / Rowan,Massachussetts Ave / CR 587,Ridge Rd / CR 587A
+3,107,3107005,CR 77 / Seven Springs / Rowan,Ridge Rd / CR 587A,Embassy Blvd
+3,107,3107006,CR 77 / Seven Springs / Rowan,Embassy Blvd,US 19
+3,108,3108001,Ridge Rd,US 19,Regency Park
+3,108,3108002,Ridge Rd,Regency Park,Little Rd
+3,108,3108003,Ridge Rd,Little Rd,Moon Lake Rd
+3,108,3108004,Ridge Rd,Moon Lake Rd,Suncoast Pkwy / SR 589
+3,109,3109001,Moon Lake Rd (Pasco Co),Ridge Rd,SR 52
+3,110,3110001,Collier Pkwy (Pasco Co),SR 54,Hale Rd
+3,111,3111001,CR 54 (Pasco Co),SR 56,SR 581
+3,112,3112001,CR 54,US 301 / Gall,20th St
+3,112,3112002,CR 54,20th St,Chancey Rd / Old Lakeland Hwy
+3,112,3112003,CR 54,Chancey Rd / Old Lakeland Hwy,CR 35A / Berry Rd
+3,112,3112004,CR 54,CR 35A / Berry Rd,US 98
+3,113,3113001,Eiland Blvd / CR 54,SR 54,Dean Dairy Rd
+3,113,3113002,Eiland Blvd / CR 54,Dean Dairy Rd,Geiger Rd
+3,113,3113003,Eiland Blvd / CR 54,Geiger Rd,US 301 / Gall
+3,114,3114001,Morris Bridge Rd / CR 579,Hillsborough / Pasco Co Line,Chancey Rd
+3,114,3114002,Morris Bridge Rd / CR 579,Chancey Rd,SR 54
+3,115,3115001,Curley Rd / CR 577,SR 54,Elam Rd
+3,115,3115002,Curley Rd / CR 577,Elam Rd,Prospect Rd
+3,115,3115003,Curley Rd / CR 577,Prospect Rd,SR 52
+3,116,3116001,Chancey Rd,Morris Bridge Rd / CR 579,Coates Rd
+3,116,3116002,Chancey Rd,Coates Rd,US 301 / Gall
+3,116,3116003,Chancey Rd,US 301 / Gall,CR 39 / Paul S Buchman Hwy
+3,116,3116004,Chancey Rd,CR 39 / Paul S Buchman Hwy,CR 54
+3,117,3117001,Bruce B Downs Blvd / CR 581,Hillsborough / Pasco Co Line,SR 56
+3,118,3118001,County Line Rd,Dale Mabry Hwy / SR 597,US 41 / SR 45
+3,118,3118002,County Line Rd,I-75 / I-275 Split North,CR 581 / Bruce B Downs Blvd
+3,118,3118003,County Line Rd / Willowbend Pkwy / Collier,US 41 / SR 45,Livingston Rd
+3,118,3118004,County Line Rd,Livingston Rd,I-75 / I-275 Split North
+3,119,3119001,Bruce B Downs Blvd / CR 581,SR 56,SR 50
+3,120,3120001,CR 52 / Clinton Ave,Ft Kings Hwy / CR  579,US 301
+3,121,3121001,Massachussetts Ave / CR 587,CR 595 / Grand Blvd,Congress St
+3,121,3121002,Massachussetts Ave / CR 587,Congress St,Rowan Rd
+3,121,3121003,Massachussetts Ave / CR 587,Rowan Rd,Little Rd
+3,121,3121004,De Cubellis / Massachusetts,Little Rd,Starkey Rd
+5,122,5122001,SR 44 / Gulf to Lake Hwy,US 19,N Rock Crusher Rd
+5,122,5122002,SR 44 / Gulf to Lake Hwy,N Rock Crusher Rd,CR 491
+5,122,5122003,SR 44 / Gulf to Lake Hwy,CR 491,S Norvell Ave
+5,122,5122004,SR 44 / Gulf to Lake Hwy,S Norvell Ave,US 41 / SR 45 W
+5,122,5122005,SR 44 / Gulf to Lake Hwy,US 41 / SR 45 E,Citrus / Sumter Co Line
+3,123,3123001,Pasco / Hernando Co Line Rd,US 19,Mitigation Ct / Waterfall / Winding Oaks
+3,123,3123002,Pasco / Hernando Co Line Rd,Mitigation Ct / Waterfall / Winding Oaks,Old Shady Hills Rd
+3,123,3123003,Pasco / Hernando Co Line Rd,Old Shady Hills Rd,Linden Dr
+3,123,3123004,Pasco / Hernando Co Line Rd,Linden Dr,Suncoast Pkwy / SR 589
+3,123,3123005,Pasco / Hernando Co Line Rd,Suncoast Pkwy / SR 589,US 41
+2,124,2124001,Gandy Blvd,US 19,28th St / Grand
+2,124,2124002,Gandy Blvd,28th St / Grand,I-275
+2,124,2124003,Gandy Blvd,I-275,9th St N
+2,124,2124004,Gandy Blvd,9th St N,4th St N / US 92
+2,124,2124005,Gandy Blvd,4th St N / US 92,San Martin Blvd
+2,124,2124006,Gandy Blvd,San Martin Blvd,Pinellas / Hillsborough Co Line
+1,125,1125001,Leroy Selmon Crosstown to I-4 Connector,Leroy Selmon Crosstown Expwy / SR 618,I-4
+1,126,1126001,Leroy Selmon Crosstown Expwy / SR 618,I-75,Brandon Blvd / Adamo Dr / SR 60
+1,127,1127001,Veterans Expwy / SR 589,Suncoast Pkwy / SR 589,Dale Mabry Hwy / SR 597
+3,128,3128001,US 41 / SR 45,Hillsborough / Pasco County Line,Dale Mabry Hwy / SR 597
+3,128,3128002,US 41 / SR 45,Dale Mabry Hwy / SR 597,SR 54
+3,129,3129001,Suncoast  Pkwy / SR 589,Lutz Lake Fern,SR 54
+3,129,3129002,Suncoast  Pkwy / SR 589,SR 54,Ridge Rd / CR 587A
+3,129,3129003,Suncoast  Pkwy / SR 589,Ridge Rd / CR 587A,SR 52
+3,129,3129004,Suncoast  Pkwy / SR 589,SR 52,Pasco /  Hernando County Line
+4,130,4130001,Suncoast  Pkwy / SR 589,Pasco /  Hernando County Line,Spring Hill Dr / CR 574
+4,130,4130002,Suncoast  Pkwy / SR 589,Spring Hill Dr / CR 574,SR 50
+4,130,4130003,Suncoast  Pkwy / SR 589,SR 50,US 98
+3,131,3131001,SR 54,Morris Bridge Rd,Dean Dairy Rd / Coats Rd
+3,131,3131002,SR 54,Dean Dairy Rd / Coats Rd,US 301
+3,132,3132001,SR 56 (Pasco Co),I-75,Meadow Point
+3,133,3133001,US 19,Ridge Rd,Regency Pk
+3,133,3133002,US 19,Regency Pk,SR 52
+3,133,3133003,US 19,SR 52,Hudson Ave
+1,134,1134005,Leroy Selmon REL,Polk St,22nd St
+1,134,1134006,Leroy Selmon REL,22nd St,39th St
+1,134,1134007,Leroy Selmon REL,39th St,50th St
+1,134,1134008,Leroy Selmon REL,50th St,78th St
+1,134,1134009,Leroy Selmon REL,78th St,US 301
+1,134,1134010,Leroy Selmon REL,US 301,I-75
+2,135,2135001,Drew St,SR 60 / Court St / Cleveland St,Myrtle St
+2,135,2135002,Drew St,Myrtle St,Missouri Ave
+2,135,2135003,Drew St,Missouri Ave,Highland Ave
+2,135,2135004,Drew St,Highland Ave,Keene Rd
+2,135,2135005,Drew St,Keene Rd,Coachman Rd
+2,135,2135006,Drew St,Coachman Rd,McMullen-Booth Rd
+2,136,2136001,Gulf Blvd,Pinellas Bayway,SR 699 / Blind Pass Rd
+2,136,2136002,Gulf Blvd,SR 699 / Blind Pass Rd,Treasure Island Cswy / 107th Ave
+2,136,2136003,Gulf Blvd,Treasure Island Cwsy / 107th Ave,Tom Stuart Causeway
+2,136,2136004,Gulf Blvd,Tom Stuart Causeway,78th Ave/Park Blvd
+2,136,2136005,Gulf Blvd,78th Ave/Park Blvd,Walsingham Road
+2,136,2136006,Gulf Blvd,Walsingham Road,Belleair Causeway
+2,136,2136007,Gulf Blvd,Belleair Causeway,Gulfview Blvd
+2,137,2137001,49th St,5th Ave N,22nd Ave N
+2,137,2137002,49th St,22nd Ave N,38th Ave N
+2,137,2137003,49th St,38th Ave N,54th Ave N
+2,137,2137004,49th St,54th Ave N,Park Blvd
+2,137,2137005,49th St,Park Blvd,US 19
+2,137,2137006,49th St,US 19,118th Ave N
+2,137,2137007,49th St,118th Ave N,Ulmerton Road
+2,137,2137008,49th St,Ulmerton Road,Roosevelt Blvd
+2,138,2138001,Park Blvd / 74th St,Gulf Blvd,Seminole Blvd
+2,138,2138002,Park Blvd / 74th St,Seminole Blvd,Starkey Road
+2,138,2138003,Park Blvd / 74th St,Starkey Road,Belcher Road
+2,138,2138004,Park Blvd / 74th St,Belcher Road,66th St N
+2,138,2138005,Park Blvd / 74th St,66th St N,US 19
+2,139,2139001,Main St / SR 580,Alt US 19,Skinner Blvd / New York Ave
+2,139,2139002,Main St / SR 580,Skinner Blvd / New York Ave,Patricia Ave
+2,139,2139003,Main St / SR 580,Patricia Ave,Pinehurst Rd
+2,139,2139004,Main St / SR 580,Pinehurst Rd,Keene Rd / CR 1
+2,139,2139005,Main St / SR 580,Keene Rd / CR 1,Belcher Rd
+2,139,2139006,Main St / SR 580,Belcher Rd,US 19
+2,139,2139007,Main St / SR 580,US 19,Countryside Blvd N
+2,139,2139008,Main St / SR 580,Countryside Blvd N,McMullen-Booth Rd
+2,139,2139009,Main St / SR 580,McMullen-Booth Rd,Philippe Prkwy
+2,139,2139010,Main St / SR 580,Philippe Prkwy,Forest Lake Blvd N / CR 233
+2,139,2139011,Main St / SR 580,Forest Lake Blvd N / CR 233,Tampa Rd / SR 580
+1,501,1501001,13th St / Channelside Dr,Kennedy Blvd / SR 60,Adamo Dr
+1,502,1502001,Brandon Blvd / SR 60,Turkey Creek Rd,SR 39 / James L Redman Pkwy
+1,502,1502002,Hopewell Rd,SR 39 / James L Redman Pkwy,Hillsborough / Polk Co Line
+1,503,1503001,James L Redman Pkwy / CR 39,SR 60,Alexander St
+1,503,1503002,Collins St / CR 39,Alexander St,Reynolds Rd / SR 574
+1,504,1504001,Wheeler Rd,Reynold Rd / SR 574,I-4
+1,504,1504002,Wheeler Rd,I-4,Sam Allen Rd / SR 580
+1,504,1504003,Wheeler Rd,Sam Allen Rd / SR 580,Knights-Griffen Rd
+1,504,1504004,SR 39,Knights-Griffen Rd,Pasco / Hernando Co Line
+1,505,1505001,Hillsborough Ave / SR 580,Dale Mabry Hwy / SR 597,Armenia Ave
+1,505,1505002,Hillsborough Ave / SR 580,Armenia Ave,Florida Ave
+1,505,1505003,Hillsborough Ave / SR 580,Florida Ave,I-275
+1,505,1505004,Hillsborough Ave / SR 580,I-275,Nebraska Ave / US 41
+1,505,1505005,Hillsborough Ave / SR 580,Nebraska,22nd St
+1,505,1505006,Hillsborough Ave / SR 580,22nd St,40th St
+1,505,1505007,Hillsborough Ave / SR 580,40th St,56th St
+1,505,1505008,Hillsborough Ave / SR 580,56th St,US 301 / I-4
+1,506,1506001,US 41 / 50th St / SR 45,Causeway Blvd / 22nd St / SR 676,Leroy Selmon Crosstown Expwy / SR 618
+1,506,1506002,US 41 / 50th St / SR 45,Leroy Selmon Crosstown Expwy / SR 618,Adamo Dr / SR 60
+1,506,1506003,US 41 / 50th St / SR 45,Adamo Dr / SR 60,Broadway Ave / 7th Ave / CR 574
+1,506,1506004,US 41 / 50th St / SR 45,Broadway Ave / 7th Ave / CR 574,Columbus Dr @ I-4
+1,506,1506005,US 41 / 50th St / SR 45,Columbus Dr @ I-4,US 41 / Melbourne Blvd
+1,507,1507001,Melbourne Blvd / US 41 / SR 45,50th St,40th St
+1,508,1508001,40th St,Brandon Blvd / Adamo Dr / SR 60,7th Ave / Broadway Ave / CR 574
+1,508,1508002,40th St,7th Ave / Broadway Ave / CR 574,Columbus Dr
+1,508,1508003,40th St,Columbus Dr,E Martin Luther King Jr Blvd / SR 574 / Buff
+1,508,1508004,40th St,E Martin Luther King Jr Blvd / SR 574 / Buffa,Hillsborough Ave / SR 580
+1,509,1509001,50th St,Melbourne Blvd / US 41,E Martin Luther King Jr Blvd / SR 574 / Buff
+1,509,1509002,50th St,E Martin Luther King Jr Blvd / SR 574 / Buffa,US 92 / Hillsborough Ave
+1,510,1510001,56th St,US 92 / Hillsborough Ave,Busch Blvd
+1,510,1510002,56th St,Busch Blvd,Fowler Ave
+1,511,1511001,Florida Ave,Kennedy Blvd / SR 60,Tyler St
+1,511,1511002,Florida Ave,Tyler St,Scott St
+1,511,1511003,Florida Ave,Scott St,Columbus Dr
+1,511,1511004,Florida Ave,Columbus Dr,W Martin Luther King Jr Blvd / SR 574
+1,511,1511005,Florida Ave,W Martin Luther King Jr Blvd / SR 574,Violet St
+1,511,1511006,Florida Ave,Violet St,Hillsborough Ave / SR 580 / US 92
+1,511,1511007,Florida Ave,Hillsborough Ave / SR 580 / US 92,Sligh Ave
+1,511,1511008,Florida Ave,Sligh Ave,Waters Ave
+1,511,1511009,Florida Ave,Waters Ave,Busch Blvd
+1,512,1512001,Nebraska Ave,Kennedy Blvd / SR 60,7th Ave
+1,512,1512002,Nebraska Ave,7th Ave,Columbus Dr
+1,512,1512003,Nebraska Ave,Columbus Dr,E Martin Luther King Jr Blvd / SR 574
+1,512,1512104,Nebraska Ave,E Martin Luther King Jr Blvd / SR 574,Hillsborough Ave / SR 580 / US 92
+1,512,1512105,Nebraska Ave,Hillsborough Ave / SR 580 / US 92,Sligh Ave
+1,512,1512106,Nebraska Ave,Sligh Ave,Waters Ave
+1,512,1512107,Nebraska Ave,Waters Ave,Busch Blvd
+1,515,1515001,Busch Blvd,Dale Mabry Hwy / SR 597,Armenia Ave
+1,515,1515002,Busch Blvd,Armenia Ave,Florida Ave
+1,515,1515003,Busch Blvd,Florida Ave,I-275
+1,515,1515004,Busch Blvd,I-275,Nebraska Ave / US 41
+1,515,1515005,Busch Blvd,Nebraska Ave / US 41,30th St
+1,515,1515006,Busch Blvd,30th St,40th St
+1,515,1515007,Busch Blvd,40th St,56th St
+1,516,1516001,22nd St,Adamo Dr / SR 60,Broadway Ave / 7th Ave / CR 574
+1,516,1516002,22nd St,Broadway Ave / 7th Ave / CR 574,I-4
+1,516,1516003,22nd St,I-4,Columbus Dr
+1,516,1516004,22nd St,Columbus Dr,21st Ave
+1,516,1516005,22nd St,21st Ave,E Martin Luther King Jr Blvd / SR 574
+1,516,1516006,22nd St,E Martin Luther King Jr Blvd / SR 574,Hillsborough Ave / SR 580 / US 92
+1,517,1517001,21st St,22nd St / US 41 Bus / SR 45,Adamo Dr / SR 60
+1,517,1517002,21st St,Adamo Dr / SR 60,Broadway Ave / 7th Ave / CR 574
+1,517,1517003,21st St,Broadway Ave / 7th Ave / CR 574,I-4
+1,517,1517004,21st St / SR 585,I-4,Columbus Dr
+1,517,1517005,21st St / SR 585  onto 21st Ave,Columbus Dr,22nd St / SR 585
+1,518,1518001,Causeway Blvd / US 41 Bus / SR 45 / 22nd St,Adamo Dr / SR 60,50th St / US 41 / SR 45
+1,518,1518002,Causeway Blvd / SR 676,50th St / US 41 / SR 45,78th St
+1,518,1518003,Causeway Blvd / SR 676,78th St,US 301
+1,518,1518004,Causeway Blvd / SR 676 / Lumsden Rd,US 301,Lithia Pinecrest Rd / CR 640
+1,519,1519001,SR 674 / College St,US 41 / SR 45,I-75
+1,519,1519002,SR 674 / Sun City Center Blvd,I-75,US 301
+1,519,1519003,SR 674,US 301,CR 579
+1,519,1519004,SR 674,CR 579,CR 39
+1,519,1519005,SR 674,CR 39,Hillsborough / Polk Co Line
+1,520,1520001,Henderson Blvd,Morrison Ave,Swann Ave
+1,520,1520002,Henderson Blvd,Swann Ave,Azeele St
+1,520,1520003,Henderson Blvd,Azeele St,Kennedy Blvd / SR 60
+1,521,1521001,Eisenhower Blvd,Courtney Campbell Cswy,Independence Pkwy
+1,521,1521002,Eisenhower Blvd,Independence Pkwy,Memorial Hwy / SR 60
+1,521,1521003,Eisenhower Blvd,Memorial Hwy / SR 60,Hillsborough Ave / SR 580
+1,522,1522001,Thonotosassa Rd,I-4,US 92 / Baker
+1,523,1523001,Park Rd,US 92,I-4
+1,524,1524001,Fletcher,Dale Mabry Hwy / SR 597,Florida Ave
+1,524,1524002,Fletcher,Florida Ave,Nebraska Ave / US 41
+1,525,1525001,40th St,Hillsborough Ave / US 92,Busch Blvd
+1,525,1525002,40th St,Busch Blvd,Fowler Ave
+1,526,1526001,Jackson St,Ashley St,Florida Ave
+1,526,1526002,Jackson St,Florida Ave,Jefferson St
+1,526,1526003,Jackson St,Jefferson St,Leroy Selmon Crosstown Expwy
+1,526,1526004,Jackson St,Leroy Selmon Crosstown Expwy,Meridian Ave
+1,527,1527001,MacDill,Boundary Blvd / Dale Mabry Hwy,Gandy Blvd
+1,527,1527002,MacDill,Gandy Blvd,El Prado Blvd
+1,527,1527003,MacDill,El Prado Blvd,Kennedy Blvd / SR 60
+1,527,1527004,MacDill,Kennedy Blvd / SR 60,Columbus Dr
+1,527,1527005,MacDill,Columbus Dr,W Martin Luther King Jr Blvd / SR 574
+1,528,1528001,Lithia Pinecrest Rd,Bloomingdale Ave,Bell Shoals Rd
+1,528,1528002,Lithia Pinecrest Rd,Bell Shoals Rd,Brandon Blvd / Adamo Dr / SR 60
+1,529,1529001,Himes Ave,Swann Ave,Columbus Dr
+1,529,1529002,Himes Ave,Columbus Dr,Hillsborough Ave / SR 580
+1,529,1529003,Himes Ave,Hillborough Ave / SR 580,Waters Ave
+1,529,1529004,Himes Ave,Waters Ave,Busch Blvd
+1,530,1530001,Armenia Ave,Swann Ave,Kennedy Blvd / SR 60
+1,530,1530002,Armenia Ave,Kennedy Blvd / SR 60,Columbus Dr
+1,530,1530003,Armenia Ave,Columbus Dr,W Martin Luther King Jr Blvd / SR 574
+1,530,1530004,Armenia Ave,W Martin Luther King Jr Blvd / SR 574,Hillsborough Ave / SR 580
+1,530,1530005,Armenia Ave,Hillsborough Ave / SR 580,Waters Ave
+1,530,1530006,Armenia Ave,Waters Ave,Busch Blvd
+2,531,2531001,Tarpon Ave,Alt US 19,Huey Ave
+2,531,2531002,Tarpon Ave,Huey Ave,US 19
+2,535,2535001,Coachman Rd,Drew St,US 19
+2,535,2535002,Coachman Rd,US 19,McMullen-Booth Rd
+2,536,2536001,10th St D52/ 14th St,McMullen-Booth Rd,Main St
+2,536,2536002,Main St,10th St,Philippe Prkwy
+2,537,2537001,Philippe Pkwy,Main St,Enterprise Rd
+2,537,2537002,Philippe Pkwy,Enterprise Rd,Tampa Rd / SR 580
+2,539,2539001,3rd St S,5th Ave S,Central Ave
+2,539,2539002,3th St N,Central Ave,5th Ave N.
+2,539,2539003,4th St S,5th Ave S,Central Ave
+2,539,2539004,4th St N,Central Ave,5th St N
+2,540,2540001,4th St N,Gandy Blvd,I-275
+2,541,2541001,Cory Cswy,Blind Pass Rd,Pasadena Ave
+2,541,2541002,Cory Cswy,Pasadena,Park St
+2,541,2541003,Pasadena Ave,Park St,Central Ave
+2,541,2541004,Pasadena Ave,Central Ave,66th St N
+2,543,2543001,66th St N,Pasadena Ave,Tyrone Blvd
+2,543,2543002,66th St N,Tyrone Blvd,38th Ave
+2,543,2543003,66th St N,38th Ave,54th Ave
+2,544,2544001,66th St N,Ulmerton Rd,US 19
+2,545,2545001,Belleair Cswy,Gulf Blvd,Indian Rocks Rd
+2,546,2546001,Pinellas Bayway,US 19,Toll Plaza
+2,546,2546002,Pinellas Bayway,Toll Plaza,Pinellas Bayway / Sun Blvd
+2,546,2546003,Pinellas Bayway,Pinellas Bayway / Sun Blvd,Gulf Blvd
+2,550,2550001,Pinellas Bayway,Anderson Blvd.,Toll Plaza
+2,550,2550002,Pinellas Bayway,Toll Plaza,SR 682 / 5th Ave S / Pinellas Bayway
+2,551,2551001,McMullen-Booth Rd,Roosevelt Blvd,Gulf to Bay Blvd
+3,552,3552001,US 98 / US 301,US 301,Old Lakeland Hwy / SR 35A
+3,552,3552002,US 98 / US 301,Old Lakeland Hwy / SR 35A,W Meridian Ave / SR 52
+3,552,3552003,US 98 / US 301,W Meridian Ave / SR 52,N 7th Ave
+3,553,3553001,US 98,CR 54 / Polk / Pasco Co Line,Old Lakeland Hwy / SR 35A
+3,553,3553002,US 98,Old Lakeland Hwy / SR 35A,US 301
+3,554,3554001,SR 39,Hillsborough / Pasco Co Line,Chancey Rd / CR 535
+3,554,3554002,SR 39,Chancey Rd / CR 535,US 301
+4,555,4555001,W Jefferson St / SR 50A,SR 50 / Cobb,US 98 / Ponce De Leon Blvd
+4,555,4555002,W Jefferson St / SR 50A / US 98,US 98 / Ponce De Leon Blvd,US 41 / Mildred Ave
+4,555,4555003,E Jefferson St / SR 50A / US 98,Broad St / US 41 / SR 45,E Martin Luther King Jr Blvd / SR 574
+3,556,3556001,,,
+1,557,1557001,Kennedy Blvd / SR 60,Dale Mabry,Henderson Blvd
+1,557,1557002,Kennedy Blvd / SR 60,Henderson Blvd,Howard Ave
+1,557,1557003,Kennedy Blvd / SR 60,Howard Ave,Boulevard
+1,557,1557004,Kennedy Blvd / SR 60,Boulevard,Ashley St
+1,557,1557005,Kennedy Blvd / SR 60,Ashley St,Florida Ave
+1,557,1557006,Kennedy Blvd / SR 60,Florida Ave,Jefferson St
+1,557,1557007,Kennedy Blvd / SR 60,Jefferson St,Leroy Selmon Crosstown Expwy / SR 618
+1,557,1557008,Kennedy Blvd / SR 60,Leroy Selmon Crosstown Expwy / SR 618,13th St / Channelside Dr
+2,558,2558001,4th Ave N / US 92 / SR 595,4th St N / SR 687,I-375 Off Ramp
+2,558,2558002,4th Ave N / SR 595,I-375 Off Ramp,9th St N / Dr Martin Lurther King St
+2,558,2558003,4th Ave N / SR 595,9th St N / Dr Martin Lurther King St,5th St N / SR 595
+2,559,2559001,5th Ave N / US 92 / SR 595,4th St N / SR 687,I-375 On Ramp
+2,559,2559002,5th Ave N,I-375 On Ramp,9th St N / Dr Martin Lurther King St
+2,559,2559003,5th Ave N,9th St N / Dr Martin Lurther King St,4th St N / SR 595
+2,559,2559004,5th Ave N,4th St N / SR 595,I-275
+2,559,2559005,5th Ave N,I-275,28th St N
+2,559,2559006,5th Ave N,28th St N,US 19
+2,560,2560001,I-175,I-275,9th St S
+2,560,2560002,I-175,9th St S,6th St S
+2,560,2560003,I-175,6th St S,4th St S
+2,561,2561001,I-375,I-275,9th St N
+2,561,2561002,I-375,9th St N,6th St N
+3,562,3562001,Bi County Pkwy,Pinellas C,SR 54
+4,563,4563001,US 19 Frontage,Pasco / Hernando Co Line,Spring Hill Dr / CR 574
+4,563,4563002,US 19 Frontage,Spring Hill Dr / CR 574,SR 50 / Cortez Blvd
+1,564,1564001,US 92 / Hillsborough Ave,US 301 / I-4,I-75
+1,564,1564002,US 92 / Hillsborough Ave,I-75,Mango Rd
+1,564,1564003,US 92 / Hillsborough Ave,Mango Rd,McIntosh Rd
+1,564,1564004,US 92,McIntosh,Branch Forbes Rd
+1,564,1564005,US 92,Branch Forbes Rd,Thonotosassa Rd
+1,565,1565001,Florida Ave,Busch Blvd,Linebaugh Ave
+1,565,1565002,Florida Ave,Linebaugh Ave,Fowler Ave
+1,565,1565003,Florida Ave,Fowler Ave,Fletcher Ave
+1,565,1565004,Florida Ave,Fletcher Ave,Bearss Ave
+1,565,1565005,Florida Ave,Bearss Ave,Nebraska Ave / US 41
+1,566,1566001,Fletcher,Nebraska Ave / US 41,Bruce B Downs Blvd / 30th St
+1,566,1566002,Fletcher,Bruce B Downs Blvd / 30th St,56th St
+1,566,1566003,Fletcher,56th St,I-75
+2,141,2141001,SR 690 (118th Ave Elevated Express),US 19,SR 686 (296 Connector)
+2,142,2142001,SR 686 (296 Connector),Roosevelt Blvd (Bayside Bridge),SR 690 (118th Ave Elevated Express)
+2,142,2142002,SR 686 (296 Connector),SR 690 (118th Ave Elevated Express),Ramps near I-275
+2,143,2143001,Central Ave (with 1st Ave pairs),Pasadena Ave,49th St (N/S)
+2,143,2143002,Central Ave (with 1st Ave pairs),49th St (N/S),US 19 / 34th St (N/S)
+2,143,2143003,Central Ave (with 1st Ave pairs),US 19 / 34th St (N/S),I-275
+2,143,2143004,Central Ave (with 1st Ave pairs),I-275,1st St (Downtown St Petersburg)
